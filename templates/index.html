@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>日本語N4リーダー — Japanese N4 Reader</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Word / Grammar tooltip (follows cursor) ──────────────────────── -->
+  <div id="tooltip" class="tooltip hidden">
+    <button class="tooltip-close" id="tooltipClose" aria-label="Close">✕</button>
+    <div class="tooltip-header">
+      <span class="tooltip-word"></span>
+      <span class="tooltip-reading"></span>
+      <span class="tooltip-badge"></span>
+    </div>
+    <div class="tooltip-meaning"></div>
+    <div class="tooltip-kanji-breakdown hidden">
+      <div class="ttk-label">Kanji breakdown</div>
+      <div class="ttk-list"></div>
+    </div>
+    <div class="tooltip-extra hidden">
+      <div class="tooltip-pattern"></div>
+      <div class="tooltip-explanation"></div>
+      <div class="tooltip-example hidden">
+        <div class="tooltip-example-jp"></div>
+        <div class="tooltip-example-en"></div>
+      </div>
+    </div>
+    <div class="tooltip-notes hidden"></div>
+  </div>
+
+  <!-- ── Kanji detail modal ────────────────────────────────────────────── -->
+  <div id="kanjiModal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="modal-kanji-char" id="modalChar"></div>
+      <div class="modal-level" id="modalLevel"></div>
+      <div class="modal-meanings" id="modalMeanings"></div>
+      <div class="modal-readings">
+        <div class="modal-readings-section">
+          <span class="reading-label on-label">音読み On'yomi</span>
+          <span class="reading-values" id="modalOn"></span>
+        </div>
+        <div class="modal-readings-section">
+          <span class="reading-label kun-label">訓読み Kun'yomi</span>
+          <span class="reading-values" id="modalKun"></span>
+        </div>
+      </div>
+      <div class="modal-strokes" id="modalStrokes"></div>
+      <div class="modal-examples-heading">Example words</div>
+      <div class="modal-examples" id="modalExamples"></div>
+    </div>
+  </div>
+
+  <!-- ── Layout ────────────────────────────────────────────────────────── -->
+  <div class="layout">
+
+    <!-- Sidebar toggle (mobile only) -->
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle grammar panel">☰ Grammar &amp; Legend</button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="level-badge">JLPT</div>
+        <h2>Grammar Patterns</h2>
+        <p class="sidebar-subtitle">Covered in this passage</p>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <label class="toggle-label">
+          <input type="checkbox" id="furiganaToggle" checked />
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Show furigana</span>
+        </label>
+        <label class="toggle-label" style="margin-top:0.5rem">
+          <input type="checkbox" id="translationToggle" />
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span class="toggle-text">Show translations</span>
+        </label>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><span class="dot dot-word"></span> Vocabulary</div>
+        <div class="legend-item"><span class="dot dot-grammar"></span> Grammar</div>
+        <div class="legend-item"><span class="dot dot-particle"></span> Particle</div>
+        <div class="legend-item"><span class="dot dot-name"></span> Name</div>
+        <div class="legend-item"><span class="dot dot-kanji"></span> Kanji (click)</div>
+      </div>
+
+      <div class="grammar-list" id="grammarList">
+        <!-- populated by JS -->
+      </div>
+    </aside>
+
+    <!-- Main reading area -->
+    <main class="main">
+
+      <!-- Level tabs -->
+      <div class="level-tabs">
+        <button class="level-tab active" data-level="n4">N4</button>
+        <button class="level-tab" data-level="n3">N3</button>
+      </div>
+
+      <div class="passage-header" id="passageHeader">
+        <!-- populated by JS -->
+      </div>
+      <div class="passage-body" id="passageBody">
+        <div class="loading">Loading passage…</div>
+      </div>
+    </main>
+
+  </div><!-- /.layout -->
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
