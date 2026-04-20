@@ -6,12 +6,12 @@
   <title>日本語N4リーダー — Japanese N4 Reader</title>
   <link rel="stylesheet" id="dynamicStylesheet" href="" />
   <script>
-    const host = window.location.hostname;
-    const localHost = host === 'localhost'
-      || host === '127.0.0.1'
-      || host === '::1'
-      || host.endsWith('.local')
-      || /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(host);
+    const hostname = window.location.hostname;
+    const localHost = hostname === 'localhost'
+      || hostname === '127.0.0.1'
+      || hostname === '::1'
+      || hostname.endsWith('.local')
+      || /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(hostname);
     const assetPrefix = localHost ? '' : 'japanese/';
     document.getElementById('dynamicStylesheet').href = assetPrefix + 'static/css/style.css';
   </script>
