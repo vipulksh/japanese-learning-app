@@ -103,6 +103,12 @@ function showWordTooltip(e, tok) {
         const charEl = document.createElement('span');
         charEl.className = 'ttk-char';
         charEl.textContent = ch;
+        charEl.style.cursor = 'pointer';
+        charEl.addEventListener('click', e => {
+          e.stopPropagation();
+          tooltip.classList.add('hidden');
+          openKanjiModal(ch);
+        });
 
         const readEl = document.createElement('span');
         readEl.className = 'ttk-readings';
@@ -249,9 +255,7 @@ function renderKanjiChars(text) {
       span.textContent = ch;
       span.dataset.kanji = ch;
 
-      if (kanjiDB[ch]) {
-        span.addEventListener('click', e => { e.stopPropagation(); openKanjiModal(ch); });
-      }
+      // No direct kanji modal on click — word tooltip shows first
       frag.appendChild(span);
     } else {
       frag.appendChild(document.createTextNode(ch));
@@ -294,12 +298,10 @@ function renderToken(tok) {
   span.addEventListener('mousemove', e => showWordTooltip(e, tok));
   span.addEventListener('mouseleave', hideWordTooltip);
 
-  // Tap-to-show on mobile
+  // Click-to-show on all screen sizes (first click shows word popup)
   span.addEventListener('click', e => {
-    if (window.innerWidth <= 768) {
-      e.stopPropagation();
-      showWordTooltip(e, tok);
-    }
+    e.stopPropagation();
+    showWordTooltip(e, tok);
   });
 
   return span;
