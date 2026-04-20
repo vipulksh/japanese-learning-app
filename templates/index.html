@@ -7,13 +7,13 @@
   <link rel="stylesheet" id="dynamicStylesheet" href="" />
   <script>
     const hostname = window.location.hostname;
-    const localHost = hostname === 'localhost'
+    const localHostlocal = hostname === 'localhost'
       || hostname === '127.0.0.1'
       || hostname === '::1'
       || hostname.endsWith('.local')
       || /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(hostname);
-    const assetPrefix = localHost ? '' : 'japanese/';
-    document.getElementById('dynamicStylesheet').href = assetPrefix + 'static/css/style.css';
+    const assetPrefixlocal = localHostlocal ? '' : 'japanese/';
+    document.getElementById('dynamicStylesheet').href = assetPrefixlocal + 'static/css/style.css';
   </script>
 </head>
 <body>
