@@ -375,7 +375,7 @@ async function loadPassage(level) {
   const body = document.getElementById('passageBody');
   body.innerHTML = '<div class="loading">Loading passage…</div>';
   try {
-    const res = await fetch('/api/passage/' + level);
+    const res = await fetch('japanese/api/passage/' + level);
     const passage = await res.json();
     renderPassage(passage);
     renderGrammarList(passage.grammar_index || []);
@@ -387,7 +387,7 @@ async function loadPassage(level) {
 // ── Boot ──────────────────────────────────────────────────────────────────
 async function init() {
   try {
-    const kanjiRes = await fetch('/api/kanji');
+    const kanjiRes = await fetch('japanese/api/kanji');
     kanjiDB = await kanjiRes.json();
     await loadPassage('n4');
   } catch (err) {
