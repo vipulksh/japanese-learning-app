@@ -1,6 +1,8 @@
 services:
   japanese-learning-app:
     build: .
+    volumes:
+      - .:/app
     ports:
       - "5001:5001"
     restart: unless-stopped
