@@ -1,6 +1,15 @@
 # 日本語 N4/N3 Reader
 
-An interactive Japanese reading tool for JLPT N4 and N3 learners. Annotated passages with hover/tap tooltips for vocabulary, grammar patterns, particles, and kanji — all in one place.
+A **local-first** interactive Japanese reading tool for JLPT N4 and N3 learners. Runs entirely on your machine — no internet connection required after setup, no accounts, no data sent anywhere. Annotated passages with hover/tap tooltips for vocabulary, grammar patterns, particles, and kanji — all in one place.
+
+### What's included
+
+This app ships with **two complete reading passages** — one at N4 level and one at N3 level — each written to provide full coverage of the target JLPT tier:
+
+| Level | Passage focus | Kanji | Grammar patterns | Vocabulary |
+|---|---|---|---|---|
+| **N4** | Daily life / intermediate topics | All N4 kanji in context | 77 patterns | N4 core vocabulary |
+| **N3** | Natural everyday Japanese | All N3 kanji in context | 52 patterns | N3 core vocabulary |
 
 ## Features
 
@@ -15,6 +24,12 @@ An interactive Japanese reading tool for JLPT N4 and N3 learners. Annotated pass
 ## Screenshots
 
 > N4 passage with vocabulary and grammar annotations, kanji breakdown in tooltip
+
+## Local-only design
+
+This is intentionally a local app. There is no hosted version, no backend API calls to external services, and no telemetry. All passage data, kanji data, and grammar data live in the `data/` directory as Python files — you can read, edit, or extend them directly. If you want to add your own passages or kanji notes, open `data/passage.py` and follow the existing structure.
+
+The app serves over HTTP on `localhost:5001` and is meant to be used in a browser on the same machine.
 
 ## Running Locally
 
