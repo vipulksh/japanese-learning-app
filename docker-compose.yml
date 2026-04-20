@@ -6,3 +6,4 @@ services:
     ports:
       - "5001:5001"
     restart: unless-stopped
+    container_name: japanese-learning-app
