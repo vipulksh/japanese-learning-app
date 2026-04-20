@@ -4,7 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>日本語N4リーダー — Japanese N4 Reader</title>
-  <link rel="stylesheet" href="japanese/static/css/style.css" />
+  <link rel="stylesheet" id="dynamicStylesheet" href="" />
+  <script>
+    const host = window.location.hostname;
+    const localHost = host === 'localhost'
+      || host === '127.0.0.1'
+      || host === '::1'
+      || host.endsWith('.local')
+      || /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(host);
+    const assetPrefix = localHost ? '' : 'japanese/';
+    document.getElementById('dynamicStylesheet').href = assetPrefix + 'static/css/style.css';
+  </script>
 </head>
 <body>
 
@@ -115,6 +125,17 @@
 
   </div><!-- /.layout -->
 
-  <script src="japanese/static/js/app.js"></script>
+  <script>
+    const host = window.location.hostname;
+    const localHost = host === 'localhost'
+      || host === '127.0.0.1'
+      || host === '::1'
+      || host.endsWith('.local')
+      || /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(host);
+    const assetPrefix = localHost ? '' : 'japanese/';
+    const appScript = document.createElement('script');
+    appScript.src = assetPrefix + 'static/js/app.js';
+    document.body.appendChild(appScript);
+  </script>
 </body>
 </html>

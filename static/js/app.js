@@ -37,6 +37,17 @@ levelTabs.forEach(tab => {
   });
 });
 
+function isLocalHostOrSelf() {
+  const host = window.location.hostname;
+  return host === 'localhost'
+      || host === '127.0.0.1'
+      || host === '::1'
+      || host.endsWith('.local')
+      || /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(host);
+}
+
+const API_PREFIX = isLocalHostOrSelf() ? '' : 'japanese/';
+
 // ── Tooltip positioning helper ────────────────────────────────────────────
 function positionEl(el, e) {
   if (window.innerWidth <= 768) return; // CSS handles it as a bottom sheet
@@ -375,7 +386,7 @@ async function loadPassage(level) {
   const body = document.getElementById('passageBody');
   body.innerHTML = '<div class="loading">Loading passage…</div>';
   try {
-    const res = await fetch('japanese/api/passage/' + level);
+    const res = await fetch(`${API_PREFIX}api/passage/${level}`);
     const passage = await res.json();
     renderPassage(passage);
     renderGrammarList(passage.grammar_index || []);
@@ -387,7 +398,7 @@ async function loadPassage(level) {
 // ── Boot ──────────────────────────────────────────────────────────────────
 async function init() {
   try {
-    const kanjiRes = await fetch('japanese/api/kanji');
+    const kanjiRes = await fetch(`${API_PREFIX}api/kanji`);
     kanjiDB = await kanjiRes.json();
     await loadPassage('n4');
   } catch (err) {
