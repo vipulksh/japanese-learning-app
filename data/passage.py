@@ -2249,7 +2249,7 @@ N3_SEGMENTS = [
               "Always followed by 〜そうだ、〜らしい、〜とのことだ, or similar hearsay expressions. "
               "によれば is a slightly more formal variant.",
               "天気予報によると、明日は雨らしい。",
-              "According to the weather forecast, it will apparently rain tomorrow."),
+              "According to the weather forecast, it will apparently rain tomorrow.", level="N3"),
             T("、翻訳会社の面接では"),
             W("実力", "じつりょく", "real ability; actual skill", "名詞 (noun)", "N4"),
             T("テストが"),
@@ -2258,7 +2258,7 @@ N3_SEGMENTS = [
             G("らしい", "らしい", "Plain/Noun + らしい",
               "apparently ~ (hearsay); also: typical of ~",
               "らしい follows reported information. Used in combination with によると.",
-              "彼は合格したらしい。", "Apparently he passed."),
+              "彼は合格したらしい。", "Apparently he passed.", level="N3"),
             T("。"),
         ],
     },
@@ -2277,7 +2277,7 @@ N3_SEGMENTS = [
               "Similar to のに (despite) but more formal and emphatic. "
               "Often appears in written Japanese or formal speech.",
               "雨にもかかわらず、試合は続けられた。",
-              "Despite the rain, the match continued."),
+              "Despite the rain, the match continued.", level="N2"),
             T("、最初の二社は"),
             W("不合格", "ふごうかく", "failure; rejection", "名詞 (noun)", "N4"),
             T("だった。"),
@@ -2294,7 +2294,7 @@ N3_SEGMENTS = [
               "にとって marks the person from whose viewpoint or for whose benefit/detriment something is considered. "
               "Cannot be used with actions — use に for actions, にとって for evaluations/states.",
               "子供にとって、遊びは大切だ。",
-              "For children, play is important."),
+              "For children, play is important.", level="N3"),
             T("、翻訳は"),
             W("単なる", "たんなる", "mere; simple; nothing but", "連体詞 (pre-noun adj.)", "N4"),
             W("仕事", "しごと", "work; job", "名詞 (noun)", "N5"),
@@ -2315,7 +2315,7 @@ N3_SEGMENTS = [
               "More specific than より: より just marks the comparison point; "
               "に比べて explicitly says 'when compared side by side with'.",
               "去年に比べて、今年は暑い。",
-              "Compared to last year, this year is hot."),
+              "Compared to last year, this year is hot.", level="N3"),
             T("、"),
             W("日本語", "にほんご", "Japanese language", "名詞 (noun)", "N5"),
             P("の", "possessive particle"),
@@ -2340,7 +2340,7 @@ N3_SEGMENTS = [
               "ば〜ほど expresses a proportional relationship: as X increases, Y increases accordingly. "
               "Both verbs are the same. Also used with adjectives: 高ければ高いほど (the more expensive).",
               "練習すればするほど、上達する。",
-              "The more you practice, the more you improve."),
+              "The more you practice, the more you improve.", level="N3"),
             T("、"),
             W("上手になる", "じょうずになる", "become better; improve", "動詞 (verb)", "N5"),
             T("」という"),
@@ -2366,7 +2366,7 @@ N3_SEGMENTS = [
               "The second event often happens reflexively or unexpectedly. "
               "The main clause cannot be a deliberate action — only spontaneous reactions.",
               "ドアを開けたとたん、猫が飛び出してきた。",
-              "The moment I opened the door, the cat jumped out."),
+              "The moment I opened the door, the cat jumped out.", level="N3"),
             T("、"),
             W("思わず", "おもわず", "involuntarily; without thinking", "副詞 (adverb)", "N4"),
             W("大きな", "おおきな", "big; large", "連体詞", "N5"),
@@ -2388,7 +2388,7 @@ N3_SEGMENTS = [
               "Often used as advice. "
               "Compare: 〜ながら (simultaneous actions, same subject) vs うちに (time window, can change).",
               "若いうちに、いろいろな経験をしたほうがいい。",
-              "You should have various experiences while you're still young."),
+              "You should have various experiences while you're still young.", level="N3"),
             T("、すぐに"),
             W("両親", "りょうしん", "parents (both)", "名詞 (noun)", "N4"),
             P("や", "listing particle (non-exhaustive): 'and, among others'"),
@@ -2416,7 +2416,7 @@ N3_SEGMENTS = [
               "decided to ~ (speaker's deliberate choice)",
               "ことにする = make a conscious decision to do something. "
               "Speaker has full control and agency over the decision.",
-              "毎朝ジョギングすることにした。", "I decided to jog every morning."),
+              "毎朝ジョギングすることにした。", "I decided to jog every morning.", level="N3"),
             T("。"),
         ],
     },
@@ -2436,7 +2436,7 @@ N3_SEGMENTS = [
               "Contrast: ことにする = speaker's own active decision. "
               "Past: ことになった = it was decided / it turned out.",
               "来月、転勤することになった。",
-              "It was decided that I would be transferred next month."),
+              "It was decided that I would be transferred next month.", level="N3"),
             T("とは、一年前には"),
             W("想像", "そうぞう", "imagination; imagining", "名詞 (noun)", "N4"),
             T("もできなかった。"),
@@ -2459,7 +2459,7 @@ N3_SEGMENTS = [
               "Opposite: せいで (negative outcome). "
               "Can also be used sarcastically: 〜のおかげで困った (Thanks to ~, I'm in trouble).",
               "あなたのおかげで、合格できた。",
-              "Thanks to you, I was able to pass."),
+              "Thanks to you, I was able to pass.", level="N3"),
             T("、"),
             W("面接", "めんせつ", "interview", "名詞 (noun)", "N4"),
             P("の", "possessive particle"),
@@ -2470,7 +2470,7 @@ N3_SEGMENTS = [
             G("ことができた", "ことができた", "V plain + ことができた",
               "was able to ~ (past ability)",
               "Past form of ことができる. Expresses that something was achievable on a specific occasion.",
-              "一人で解決することができた。", "I was able to solve it by myself."),
+              "一人で解決することができた。", "I was able to solve it by myself.", level="N3"),
             T("。"),
         ],
     },
@@ -2486,7 +2486,7 @@ N3_SEGMENTS = [
               "せいで attributes a NEGATIVE outcome to a cause. Often implies blame or frustration. "
               "Contrast: おかげで (positive outcome).",
               "雨のせいで、試合が中止になった。",
-              "Because of the rain, the match was cancelled."),
+              "Because of the rain, the match was cancelled.", level="N3"),
             T("、最初の"),
             W("翻訳", "ほんやく", "translation", "名詞 (noun)", "N4"),
             P("で", "context particle"),
@@ -2495,7 +2495,7 @@ N3_SEGMENTS = [
             G("してしまった", "してしまった", "V て-form + しまった",
               "ended up making ~ (regret/unintended completion)",
               "てしまった expresses an action completed unintentionally or with regret.",
-              "大切なものをなくしてしまった。", "I ended up losing something important."),
+              "大切なものをなくしてしまった。", "I ended up losing something important.", level="N3"),
             T("。"),
         ],
     },
@@ -2512,7 +2512,7 @@ N3_SEGMENTS = [
               "につれて expresses that as one thing changes, another changes in step with it. "
               "Both clauses must describe changes. More formal than とともに.",
               "時間が経つにつれて、痛みが消えていった。",
-              "As time passed, the pain gradually faded."),
+              "As time passed, the pain gradually faded.", level="N3"),
             T("、"),
             W("仕事", "しごと", "work", "名詞 (noun)", "N5"),
             P("の", "possessive particle"),
@@ -2522,7 +2522,7 @@ N3_SEGMENTS = [
             G("きた", "きた", "V て-form + きた",
               "has come to be; has gradually ~ (change toward now)",
               "てくる = a change that started in the past and has arrived at the present moment.",
-              "だんだん分かってきた。", "I've gradually come to understand."),
+              "だんだん分かってきた。", "I've gradually come to understand.", level="N3"),
             T("。"),
         ],
     },
@@ -2540,7 +2540,7 @@ N3_SEGMENTS = [
               "The result clause usually expresses something consistent or predictable. "
               "Can follow verbs (plain) or nouns (の).",
               "彼に会うたびに、元気をもらう。",
-              "Every time I meet him, I feel encouraged."),
+              "Every time I meet him, I feel encouraged.", level="N3"),
             T("、"),
             W("新しい", "あたらしい", "new", "い形容詞 (i-adjective)", "N5"),
             W("気づき", "きづき", "realization; insight", "名詞 (noun)", "N4"),
@@ -2562,7 +2562,7 @@ N3_SEGMENTS = [
               "ものの acknowledges the first clause but shows that the expected consequence did NOT follow. "
               "More formal than が or けれど. Often in writing.",
               "合格したものの、まだ自信がない。",
-              "Although I passed, I still don't have confidence."),
+              "Although I passed, I still don't have confidence.", level="N2"),
             T("、"),
             W("着実に", "ちゃくじつに", "steadily; surely", "副詞 (adverb)", "N4"),
             W("成長している", "せいちょうしている", "is growing; is developing", "動詞 (verb)", "N4"),
@@ -2592,7 +2592,7 @@ N3_SEGMENTS = [
               "Stronger than はずがない. "
               "Contrast: わけではない (it doesn't mean that) — that just denies an implication.",
               "彼がそんなことを言うわけがない。",
-              "There's no way he would say something like that."),
+              "There's no way he would say something like that.", level="N3"),
             P("と", "quotation particle"),
             T("、"),
             N("健二", "けんじ", "Kenji"),
@@ -2602,7 +2602,7 @@ N3_SEGMENTS = [
             G("ようになった", "ようになった", "V plain + ようになった",
               "came to ~; gradually began to ~ (change in ability or state)",
               "Marks a gradual change. Something that wasn't true before has now become true.",
-              "日本語が読めるようになった。", "I came to be able to read Japanese."),
+              "日本語が読めるようになった。", "I came to be able to read Japanese.", level="N3"),
             T("。"),
         ],
     },
@@ -2616,7 +2616,7 @@ N3_SEGMENTS = [
             G("につれ", "につれ", "V plain + につれ(て)", "as ~ (proportional change)",
               "Shorter form of につれて. Used the same way.",
               "技術が進むにつれ、生活が便利になった。",
-              "As technology advanced, life became more convenient."),
+              "As technology advanced, life became more convenient.", level="N3"),
             T("、"),
             W("人間", "にんげん", "human being; person", "名詞 (noun)", "N4"),
             T("だからこそできる"),
@@ -2633,7 +2633,7 @@ N3_SEGMENTS = [
               "More assertive than はずだ. Cannot be used for decisions the speaker controls. "
               "Similar to: 〜に決まっている (also strong conviction).",
               "彼は知っているに違いない。",
-              "He must know. / There's no doubt he knows."),
+              "He must know. / There's no doubt he knows.", level="N2"),
             T("。"),
         ],
     },
@@ -2650,7 +2650,7 @@ N3_SEGMENTS = [
               "を通して is almost identical but slightly more common in speech. "
               "Duration meaning: 一年を通じて (throughout the year).",
               "音楽を通じて、世界がつながる。",
-              "Through music, the world is connected."),
+              "Through music, the world is connected.", level="N2"),
             T("、"),
             W("世界", "せかい", "world", "名詞 (noun)", "N4"),
             P("が", "subject marker"),
@@ -2660,7 +2660,7 @@ N3_SEGMENTS = [
               "the fact that ~ is going (continuing away; into the future)",
               "ていく describes continuation moving away from now / into the future. "
               "の nominalization makes the clause a noun, then を marks it as the object of 感じる.",
-              "時間が過ぎていくのを感じた。", "I felt time passing by."),
+              "時間が過ぎていくのを感じた。", "I felt time passing by.", level="N3"),
             W("感じていた", "かんじていた", "was feeling; was sensing", "動詞 (verb)", "N4"),
             T("。"),
         ],
@@ -2677,14 +2677,14 @@ N3_SEGMENTS = [
               "に関する + Noun (attributive): 翻訳に関する本 = a book about translation. "
               "Use で話す / で書く with に関して to indicate formal discussion.",
               "環境問題に関して、会議が行われた。",
-              "A meeting was held regarding environmental issues."),
+              "A meeting was held regarding environmental issues.", level="N2"),
             T("言えば、"),
             W("言語力", "げんごりょく", "language ability; linguistic competence", "名詞 (noun)", "N4"),
             G("だけでなく", "だけでなく", "Noun/plain + だけでなく",
               "not only ~ but also ~",
               "Goes beyond just one quality to name additional ones.",
               "彼は頭がいいだけでなく、優しくもある。",
-              "He is not only smart but also kind."),
+              "He is not only smart but also kind.", level="N3"),
             T("、"),
             W("文化的センス", "ぶんかてきせんす", "cultural sensibility; cultural sense", "名詞 (noun)", "N4"),
             T("も"),
@@ -2705,19 +2705,19 @@ N3_SEGMENTS = [
               "The change expressed after it is often sustained or significant. "
               "Similar: をきっかけとして (more formal).",
               "留学をきっかけに、英語が好きになった。",
-              "Studying abroad was the trigger for me to come to like English."),
+              "Studying abroad was the trigger for me to come to like English.", level="N3"),
             T("、"),
             N("健二", "けんじ", "Kenji"),
             P("は", "topic marker"),
             W("将来", "しょうらい", "future; one's future", "名詞 (noun)", "N4"),
             G("について", "について", "Noun + について", "about ~; regarding ~",
               "Indicates the topic being thought or talked about.",
-              "将来について考えた。", "I thought about the future."),
+              "将来について考えた。", "I thought about the future.", level="N3"),
             W("真剣に", "しんけんに", "seriously; earnestly", "副詞 (adverb)", "N4"),
             W("考える", "かんがえる", "to think; to consider", "動詞 (verb)", "N4"),
             G("ようになった", "ようになった", "V plain + ようになった", "came to ~",
               "Gradual change: something that wasn't happening before now happens regularly.",
-              "考えるようになった。", "I came to think about it."),
+              "考えるようになった。", "I came to think about it.", level="N3"),
             T("。"),
         ],
     },
@@ -2733,7 +2733,7 @@ N3_SEGMENTS = [
               "がちだ = tends to happen; がちな + noun = prone to. "
               "Often implies this is a fault or concern. "
               "Similar: やすい (neutral tendency); がち (often negative).",
-              "彼は遅刻しがちだ。", "He tends to be late."),
+              "彼は遅刻しがちだ。", "He tends to be late.", level="N3"),
             W("自分", "じぶん", "oneself; I (reflexive)", "名詞 (noun)", "N4"),
             P("を", "object particle"),
             W("反省し", "はんせいし", "reflect on; reproach oneself (連用形)", "動詞 (verb)", "N4"),
@@ -2745,12 +2745,12 @@ N3_SEGMENTS = [
               "In the adversative use, A and B are contradictory. "
               "Example: 知りながら黙っていた = knew it and yet stayed silent.",
               "狭いながらも、居心地のいい部屋だった。",
-              "Small though it was, it was a comfortable room."),
+              "Small though it was, it was a comfortable room.", level="N3"),
             T("、それでも"),
             W("前を向く", "まえをむく", "to face forward; to look ahead", "動詞 (verb)", "N4"),
             G("ことにした", "ことにした", "V plain + ことにした", "decided to ~",
               "Speaker's active decision.",
-              "頑張ることにした。", "I decided to do my best."),
+              "頑張ることにした。", "I decided to do my best.", level="N3"),
             T("。"),
         ],
     },
@@ -2767,7 +2767,7 @@ N3_SEGMENTS = [
               "② Comparison: AほどBではない (B is not as [adj] as A). "
               "③ Approximation: 一時間ほど (about one hour).",
               "彼は歩けないほど疲れていた。",
-              "He was so tired he couldn't walk."),
+              "He was so tired he couldn't walk.", level="N3"),
             W("多くの", "おおくの", "many; a large number of", "連体詞", "N4"),
             W("参考文献", "さんこうぶんけん", "references; bibliography", "名詞 (noun)", "N4"),
             P("を", "object particle"),
@@ -2779,7 +2779,7 @@ N3_SEGMENTS = [
               "didn't intend to ~; never thought of ~ing",
               "Volitional + とする = try to do / be about to do. "
               "Here, 諦めようとは思わなかった = didn't even think of giving up.",
-              "逃げようとは思わなかった。", "I never thought of running away."),
+              "逃げようとは思わなかった。", "I never thought of running away.", level="N3"),
             T("。"),
         ],
     },
@@ -2797,7 +2797,7 @@ N3_SEGMENTS = [
               "からといって marks a reason that, the speaker argues, does NOT justify the consequence. "
               "Often followed by とは限らない or わけではない.",
               "お金があるからといって、幸せとは限らない。",
-              "Just because you have money doesn't mean you're happy."),
+              "Just because you have money doesn't mean you're happy.", level="N3"),
             T("、翻訳が"),
             W("上手", "じょうず", "skilled; good at", "な形容詞 (na-adjective)", "N5"),
             G("とは限らない", "とはかぎらない",
@@ -2806,7 +2806,7 @@ N3_SEGMENTS = [
               "とは限らない = 'is not always the case'. Challenges a generalization. "
               "Often follows からといって or even though constructions.",
               "高いものが良いとは限らない。",
-              "Expensive things are not necessarily good."),
+              "Expensive things are not necessarily good.", level="N3"),
             T("」という"),
             W("言葉", "ことば", "words", "名詞 (noun)", "N4"),
             P("は", "topic marker"),
@@ -2829,7 +2829,7 @@ N3_SEGMENTS = [
               "際に is a formal expression for 'when' or 'on the occasion of'. "
               "More formal than とき; used in business, official, and written contexts.",
               "帰国する際に、ぜひ連絡ください。",
-              "When you return to your country, please do get in touch."),
+              "When you return to your country, please do get in touch.", level="N3"),
             T("、"),
             W("部長", "ぶちょう", "department head; section chief", "名詞 (noun)", "N4"),
             P("は", "topic marker"),
@@ -2851,12 +2851,12 @@ N3_SEGMENTS = [
             G("よりも", "よりも", "Noun + よりも",
               "more than ~; compared to ~ (emphatic comparison)",
               "より alone marks comparison; よりも adds emphasis (even more than).",
-              "誰よりも努力した。", "I worked harder than anyone."),
+              "誰よりも努力した。", "I worked harder than anyone.", level="N3"),
             W("伝わって", "つたわって", "was conveyed; came through (て-form)", "動詞 (verb)", "N4"),
             G("きます", "きます", "V て-form + きます",
               "is coming across; has been building up (toward now)",
               "てくる indicates movement or change coming toward the present.",
-              "だんだん分かってきます。", "It gradually comes to make sense."),
+              "だんだん分かってきます。", "It gradually comes to make sense.", level="N3"),
             T("。」その"),
             W("言葉", "ことば", "words", "名詞 (noun)", "N4"),
             P("は", "topic marker"),
@@ -2882,13 +2882,13 @@ N3_SEGMENTS = [
               "Often used to describe gradual societal or personal change. "
               "Different from ている which just describes a state.",
               "状況は少しずつ改善されつつある。",
-              "The situation is gradually being improved."),
+              "The situation is gradually being improved.", level="N2"),
             T("。"),
             W("そう", "そう", "so; that way", "副詞 (adverb)", "N5"),
             W("確信し", "かくしんし", "convinced (連用形)", "動詞 (verb)", "N4"),
             G("ながら", "ながら", "V-stem + ながら", "while doing ~",
               "Simultaneous actions.",
-              "笑いながら話した。", "I talked while laughing."),
+              "笑いながら話した。", "I talked while laughing.", level="N3"),
             T("、"),
             N("健二", "けんじ", "Kenji"),
             P("は", "topic marker"),
@@ -2913,7 +2913,7 @@ N3_SEGMENTS = [
               "according to ~",
               "によると introduces information received from a source. Always paired with hearsay expressions like らしい or とのことだ.",
               "規則によると、毎日報告書を出すことになっている。",
-              "According to the rules, you are supposed to submit a report every day."),
+              "According to the rules, you are supposed to submit a report every day.", level="N3"),
             T("、インターン生は毎晩"),
             W("日報", "にっぽう", "daily report", "名詞 (noun)", "N3"),
             P("を", "object particle"),
@@ -2925,7 +2925,7 @@ N3_SEGMENTS = [
               "Unlike ことになった (a one-time decision), ことになっている is a standing arrangement. "
               "Often used for schedules, regulations, or social norms.",
               "社員は毎朝9時に出社することになっている。",
-              "Employees are supposed to arrive at 9 a.m. every morning."),
+              "Employees are supposed to arrive at 9 a.m. every morning.", level="N3"),
             T("。"),
         ],
     },
@@ -2947,7 +2947,7 @@ N3_SEGMENTS = [
               "Similar to だけでなく but slightly more emphatic. "
               "Often followed by も or まで. Used in both formal and casual contexts.",
               "彼は優しいばかりでなく、とても頭もいい。",
-              "Not only is he kind, but he is also very smart."),
+              "Not only is he kind, but he is also very smart.", level="N3"),
             T("、"),
             W("同僚", "どうりょう", "colleague; co-worker", "名詞 (noun)", "N3"),
             T("たちも"),
@@ -2967,7 +2967,7 @@ N3_SEGMENTS = [
               "Can also describe two simultaneous states: 'while A, at the same time B'. "
               "Similar to: それに対して (in contrast). 一方 alone can also mean 'on the one hand'.",
               "都市化が進む一方で、自然が失われている。",
-              "While urbanization advances, nature is being lost."),
+              "While urbanization advances, nature is being lost.", level="N2"),
             T("、"),
             W("仕事", "しごと", "work", "名詞 (noun)", "N5"),
             P("の", "possessive particle"),
@@ -2979,7 +2979,7 @@ N3_SEGMENTS = [
               "was far beyond ~; greatly exceeded ~",
               "を + はるかに (by far) + 超える (to exceed). Emphasizes the degree to which something surpasses the standard.",
               "予想をはるかに超える結果だった。",
-              "The result was far beyond expectations."),
+              "The result was far beyond expectations.", level="N3"),
             T("。"),
         ],
     },
@@ -2996,7 +2996,7 @@ N3_SEGMENTS = [
               "わけにはいかない expresses that doing something is impossible given social obligations, common sense, or circumstances. "
               "Stronger than できない. The speaker feels they have no choice but NOT to do it.",
               "大事な試合だから、負けるわけにはいかない。",
-              "This is an important match, so I cannot afford to lose."),
+              "This is an important match, so I cannot afford to lose.", level="N2"),
             T("と"),
             W("感じ", "かんじ", "feel (連用形)", "動詞 (verb)", "N4"),
             T("、"),
@@ -3008,7 +3008,7 @@ N3_SEGMENTS = [
               "Formation: V-ない → drop ない → add ずにはいられない. Exception: する → せずにはいられない. "
               "Formal/literary; spoken equivalent: ないではいられない.",
               "彼の話を聞いて、泣かずにはいられなかった。",
-              "Hearing his story, I couldn't help but cry."),
+              "Hearing his story, I couldn't help but cry.", level="N2"),
             T("。"),
         ],
     },
@@ -3025,7 +3025,7 @@ N3_SEGMENTS = [
             G("ために", "ために", "V plain + ために", "in order to ~",
               "Expresses purpose. The following action is taken for the sake of what precedes ために.",
               "合格するために、毎日勉強している。",
-              "I study every day in order to pass."),
+              "I study every day in order to pass.", level="N3"),
             W("一晩中", "ひとばんじゅう", "all night long; throughout the night", "名詞 (noun)", "N3"),
             W("起きていた", "おきていた", "stayed up; was awake (past progressive)", "動詞 (verb)", "N4"),
             G("ことがある", "ことがある",
@@ -3034,7 +3034,7 @@ N3_SEGMENTS = [
               "V past (た-form) + ことがある = have experienced doing something at least once. "
               "Expresses past experience. Contrast with V plain + ことがある = sometimes happens.",
               "富士山に登ったことがある。",
-              "I have climbed Mt. Fuji before."),
+              "I have climbed Mt. Fuji before.", level="N3"),
             T("。"),
         ],
     },
@@ -3062,7 +3062,7 @@ N3_SEGMENTS = [
               "てみる = try doing to see how it goes. ように言われた = was told to. "
               "Combined: was told to try doing.",
               "一度やってみるように言われた。",
-              "I was told to try doing it once."),
+              "I was told to try doing it once.", level="N3"),
             W("言った", "いった", "said; told (past)", "動詞 (verb)", "N5"),
             T("。"),
         ],
@@ -3077,7 +3077,7 @@ N3_SEGMENTS = [
               "for ~; from the perspective of ~",
               "にとって marks the person from whose standpoint something is evaluated.",
               "子供にとって、遊びは大切だ。",
-              "For children, play is important."),
+              "For children, play is important.", level="N3"),
             T("、"),
             W("本物", "ほんもの", "the real thing; genuine", "名詞 (noun)", "N4"),
             P("の", "possessive particle"),
@@ -3113,7 +3113,7 @@ N3_SEGMENTS = [
               "Used with emotion or sensation adjectives: 寂しくてたまらない, 眠くてたまらない. "
               "Similar: てしょうがない (same nuance, slightly more casual).",
               "試験が心配でたまらない。",
-              "I'm so worried about the exam I can't stand it."),
+              "I'm so worried about the exam I can't stand it.", level="N3"),
             T("。"),
         ],
     },
@@ -3133,7 +3133,7 @@ N3_SEGMENTS = [
               "asking for permission to act, while showing deference to the person who grants it. "
               "Negative question form (-ませんか) makes it a polite request.",
               "写真を撮らせてもらえませんか。",
-              "Would it be all right if I took a photo?"),
+              "Would it be all right if I took a photo?", level="N3"),
             T("」"),
             P("と", "quotation particle"),
             W("上司", "じょうし", "supervisor", "名詞 (noun)", "N3"),
@@ -3154,13 +3154,13 @@ N3_SEGMENTS = [
               "Often followed by が, けれど, or しかし. "
               "Similar to: なるほど～が; English: 'Admittedly ~, but ~'.",
               "確かに難しいが、不可能ではない。",
-              "It's true it's difficult, but it's not impossible."),
+              "It's true it's difficult, but it's not impossible.", level="N3"),
             W("締め切り", "しめきり", "deadline", "名詞 (noun)", "N3"),
             P("は", "topic marker"),
             W("厳しい", "きびしい", "strict; tight", "い形容詞 (i-adjective)", "N3"),
             G("が", "が", "Clause + が", "but; however (contrast)",
               "Concessive conjunction at sentence boundary.",
-              "難しいが、やってみます。", "It's hard, but I'll try."),
+              "難しいが、やってみます。", "It's hard, but I'll try.", level="N3"),
             T("、"),
             W("正確さ", "せいかくさ", "accuracy; precision", "名詞 (noun)", "N3"),
             P("が", "subject marker"),
@@ -3187,7 +3187,7 @@ N3_SEGMENTS = [
               "とは言えない challenges an overstated claim. "
               "Literally: 'it cannot be said that ~'. Used when something falls short of a description.",
               "完全に理解したとは言えない。",
-              "I can't say I understood it completely."),
+              "I can't say I understood it completely.", level="N3"),
             T("。"),
         ],
     },
@@ -3207,7 +3207,7 @@ N3_SEGMENTS = [
             G("くれた", "くれた", "V て-form + くれた",
               "did ~ for me (favor given to speaker)",
               "てくれる = someone does something for the speaker's benefit.",
-              "友達が助けてくれた。", "My friend helped me."),
+              "友達が助けてくれた。", "My friend helped me.", level="N3"),
             T("。"),
         ],
     },
@@ -3226,7 +3226,7 @@ N3_SEGMENTS = [
               "Unlike にとって (which evaluates something from someone's perspective), "
               "にしては judges how surprising the result is.",
               "新人にしては、仕事が早い。",
-              "For a newcomer, he works fast."),
+              "For a newcomer, he works fast.", level="N3"),
             T("、この"),
             W("クオリティ", "くおりてぃ", "quality", "名詞 (noun)", "N3"),
             P("は", "topic marker"),
@@ -3249,7 +3249,7 @@ N3_SEGMENTS = [
             T("「語学力に"),
             G("比べて", "くらべて", "Noun + に比べて", "compared to ~",
               "に比べて marks the standard of comparison.",
-              "去年に比べて、今年は暑い。", "Compared to last year, this year is hot."),
+              "去年に比べて、今年は暑い。", "Compared to last year, this year is hot.", level="N3"),
             T("、文化的なニュアンスへの"),
             W("感覚", "かんかく", "sense; feeling; intuition", "名詞 (noun)", "N3"),
             P("は", "topic marker"),
@@ -3260,7 +3260,7 @@ N3_SEGMENTS = [
               "Often used to say 'if anything, it's more like X'. "
               "Similar: かえって (unexpectedly; contrary to expectation, often negative).",
               "彼のアドバイスはむしろ逆効果だった。",
-              "His advice was rather counterproductive."),
+              "His advice was rather counterproductive.", level="N3"),
             W("優れている", "すぐれている", "is superior; is exceptional (progressive)", "動詞 (verb)", "N3"),
             T("。」"),
         ],
@@ -3280,14 +3280,14 @@ N3_SEGMENTS = [
               "さえ (even) marks the single key condition; ば is the conditional form. "
               "Often translates as 'as long as' or 'if only'.",
               "お金さえあれば、何でも買える。",
-              "If only you have money, you can buy anything."),
+              "If only you have money, you can buy anything.", level="N3"),
             T("、"),
             W("問題", "もんだい", "problem; trouble", "名詞 (noun)", "N4"),
             G("はないはずだ", "はないはずだ",
               "Plain form + はずだ (negative)",
               "should be no ~; there ought to be no ~ (confident negative expectation)",
               "はずだ = confident expectation based on reasoning.",
-              "問題はないはずだ。", "There should be no problem."),
+              "問題はないはずだ。", "There should be no problem.", level="N3"),
             T("。」"),
         ],
     },
@@ -3305,7 +3305,7 @@ N3_SEGMENTS = [
               "Can be used with any verb, adjective, or noun + でも. "
               "Similar: もし～ても (if even ~).",
               "たとえ失敗しても、あきらめない。",
-              "Even if I fail, I won't give up."),
+              "Even if I fail, I won't give up.", level="N3"),
             W("ミスをしても", "みすをしても", "even if you make a mistake", "動詞 (verb)", "N4"),
             T("、"),
             W("そこから学べば", "そこからまなべば", "if you learn from it (conditional)", "動詞 (verb)", "N3"),
@@ -3319,7 +3319,7 @@ N3_SEGMENTS = [
               "② Won't happen: そんなことはない (That sort of thing won't happen). "
               "More emphatic than なくてもいい.",
               "そんなに焦ることはない。",
-              "There's no need to be so impatient."),
+              "There's no need to be so impatient.", level="N3"),
             T("。」"),
         ],
     },
@@ -3337,11 +3337,11 @@ N3_SEGMENTS = [
               "This is different from ことはない after positive form (no need to). "
               "Combined: ないことはない = it's not that I can't = I can, but perhaps not enthusiastically.",
               "行けないことはないが、少し遠い。",
-              "It's not that I can't go, but it's a bit far."),
+              "It's not that I can't go, but it's a bit far.", level="N3"),
             T("。"),
             G("むしろ", "むしろ", "むしろ", "rather; if anything",
               "Introduces a correction or reversal.",
-              "むしろ上手いくらいだ。", "If anything, you're quite good."),
+              "むしろ上手いくらいだ。", "If anything, you're quite good.", level="N3"),
             T("、もう"),
             W("十分", "じゅうぶん", "sufficient; enough", "な形容詞 (na-adjective)", "N4"),
             W("やれている", "やれている", "is doing (it); is managing (progressive)", "動詞 (verb)", "N3"),
@@ -3366,7 +3366,7 @@ N3_SEGMENTS = [
               "に反する (attributive form) modifies nouns: 予想に反する結果 (a result contrary to expectations). "
               "Formal; often seen in writing.",
               "予想に反して、試験は簡単だった。",
-              "Contrary to expectations, the exam was easy."),
+              "Contrary to expectations, the exam was easy.", level="N3"),
             T("、"),
             W("仕事", "しごと", "work", "名詞 (noun)", "N5"),
             P("は", "topic marker"),
@@ -3377,7 +3377,7 @@ N3_SEGMENTS = [
               "Similar to むしろ but more often used for unintended reversals. "
               "Example: アドバイスがかえって混乱させた (The advice only made things more confusing).",
               "薬を飲んだが、かえって気分が悪くなった。",
-              "I took medicine, but it only made me feel worse."),
+              "I took medicine, but it only made me feel worse.", level="N3"),
             W("自分に合っていた", "じぶんにあっていた", "suited him; fit him (past progressive)", "動詞 (verb)", "N3"),
             T("。"),
         ],
@@ -3395,7 +3395,7 @@ N3_SEGMENTS = [
               "Similar to だけでなく but に加えて is more formal and focuses on additive accumulation. "
               "に加え (without て) is also used in written contexts.",
               "雨に加えて、風も強くなってきた。",
-              "In addition to rain, the wind has also picked up."),
+              "In addition to rain, the wind has also picked up.", level="N3"),
             T("、"),
             W("顧客", "こきゃく", "client; customer", "名詞 (noun)", "N3"),
             P("との", "with (と) + attributive (の)"),
@@ -3420,7 +3420,7 @@ N3_SEGMENTS = [
               "Positive: せっかく来たんだから、楽しもう (Since we've come all this way, let's enjoy it). "
               "Negative (wasted opportunity): せっかく作ったのに、食べてくれなかった (I went to the trouble of making it, but they didn't eat it).",
               "せっかくの機会だから、精いっぱいやろう。",
-              "Since it's such a precious opportunity, let's give it our all."),
+              "Since it's such a precious opportunity, let's give it our all.", level="N3"),
             P("の", "possessive particle"),
             W("機会", "きかい", "opportunity", "名詞 (noun)", "N4"),
             T("だから、"),
@@ -3435,7 +3435,7 @@ N3_SEGMENTS = [
               "しょうがない alone means 'can't be helped; nothing can be done'. "
               "Combined with て-form: 'so ~ that nothing can be done about it'.",
               "嬉しくてしょうがなかった。",
-              "I was so happy I couldn't help it."),
+              "I was so happy I couldn't help it.", level="N3"),
             T("。"),
         ],
     },
@@ -3454,7 +3454,7 @@ N3_SEGMENTS = [
               "Often used to correct an overestimation: 'it's just X, nothing more'. "
               "Formal equivalent of ただ～だけだ.",
               "これはただの誤解にすぎない。",
-              "This is nothing more than a misunderstanding."),
+              "This is nothing more than a misunderstanding.", level="N3"),
             T("ではなく、"),
             W("人生", "じんせい", "life; one's life", "名詞 (noun)", "N4"),
             P("の", "possessive particle"),
@@ -3478,7 +3478,7 @@ N3_SEGMENTS = [
               "Can be pessimistic (どうせ無理だ — it's hopeless anyway) or pragmatic. "
               "Different from せっかく (which values the opportunity); どうせ accepts the situation.",
               "どうせやるなら、楽しくやろう。",
-              "Since we're going to do it anyway, let's do it with enthusiasm."),
+              "Since we're going to do it anyway, let's do it with enthusiasm.", level="N3"),
             T("今から"),
             W("心配", "しんぱい", "worry", "名詞 (noun)", "N4"),
             T("しても、結果はもう"),
@@ -3494,7 +3494,7 @@ N3_SEGMENTS = [
             G("ことにした", "ことにした", "V plain + ことにする (past)",
               "decided to ~ (speaker's deliberate choice)",
               "ことにする = make a conscious decision to do something.",
-              "早く寝ることにした。", "I decided to go to sleep early."),
+              "早く寝ることにした。", "I decided to go to sleep early.", level="N3"),
             T("。"),
         ],
     },
@@ -3515,7 +3515,7 @@ N3_SEGMENTS = [
               "Often used as a warning: 'this could lead to ~'. "
               "Contrast: かねる (cannot bring oneself to do — personal reluctance).",
               "そんなことをすると、大きな問題になりかねない。",
-              "Doing something like that could well become a big problem."),
+              "Doing something like that could well become a big problem.", level="N3"),
             T("状況では"),
             W("なかった", "なかった", "was not; there was not", "助動詞", "N5"),
             T("。"),
@@ -3542,13 +3542,13 @@ N3_SEGMENTS = [
               "つつある describes a change currently in progress heading toward completion. "
               "More formal and literary than ている. Often for gradual social or personal change.",
               "状況は改善されつつある。",
-              "The situation is gradually being improved."),
+              "The situation is gradually being improved.", level="N2"),
             T("。"),
             W("そう", "そう", "so; that way", "副詞 (adverb)", "N5"),
             W("確信し", "かくしんし", "be convinced (連用形)", "動詞 (verb)", "N4"),
             G("ながら", "ながら", "V-stem + ながら", "while doing ~",
               "Simultaneous actions.",
-              "笑いながら話した。", "I talked while laughing."),
+              "笑いながら話した。", "I talked while laughing.", level="N3"),
             T("、"),
             N("健二", "けんじ", "Kenji"),
             P("は", "topic marker"),
@@ -3565,7 +3565,7 @@ N3_SEGMENTS = [
 N3_GRAMMAR_PATTERNS = [
     # ── Patterns from 第一章 ──────────────────────────────────────────────────
     {"id": "g3_niyoruto",      "pattern": "Noun + によると",              "meaning": "according to ~",                               "level": "N3"},
-    {"id": "g3_nimokakarazu",  "pattern": "N/plain + にもかかわらず",     "meaning": "despite ~; in spite of ~",                     "level": "N3"},
+    {"id": "g3_nimokakarazu",  "pattern": "N/plain + にもかかわらず",     "meaning": "despite ~; in spite of ~",                     "level": "N2"},
     {"id": "g3_nitotte",       "pattern": "Noun + にとって",              "meaning": "for ~; from the perspective of ~",             "level": "N3"},
     {"id": "g3_nikurabete",    "pattern": "Noun + に比べて",              "meaning": "compared to ~",                                "level": "N3"},
     {"id": "g3_ba_hodo",       "pattern": "V-ば form + V plain + ほど",   "meaning": "the more ~ the more ~",                        "level": "N3"},
@@ -3577,11 +3577,11 @@ N3_GRAMMAR_PATTERNS = [
     {"id": "g3_seide",         "pattern": "Noun + のせいで",               "meaning": "because of ~ (negative outcome/blame)",        "level": "N3"},
     {"id": "g3_nitsurete",     "pattern": "V plain / Noun + につれて",     "meaning": "as ~; in proportion to ~ (both change)",       "level": "N3"},
     {"id": "g3_tabini",        "pattern": "V plain / Noun + たびに",      "meaning": "every time ~; whenever ~",                     "level": "N3"},
-    {"id": "g3_monono",        "pattern": "Plain form + ものの",           "meaning": "although ~; even though ~ (concession)",       "level": "N3"},
+    {"id": "g3_monono",        "pattern": "Plain form + ものの",           "meaning": "although ~; even though ~ (concession)",       "level": "N2"},
     {"id": "g3_wakegana",      "pattern": "V plain + わけがない",          "meaning": "there's no way ~; it's impossible that ~",     "level": "N3"},
-    {"id": "g3_nichigainai",   "pattern": "Plain form + に違いない",       "meaning": "must be ~; certainly ~ (strong conviction)",    "level": "N3"},
-    {"id": "g3_wotsujite",     "pattern": "Noun + を通じて / を通して",    "meaning": "through ~; via ~; throughout ~",               "level": "N3"},
-    {"id": "g3_nikanshite",    "pattern": "Noun + に関して / に関する",    "meaning": "regarding ~; concerning ~",                    "level": "N3"},
+    {"id": "g3_nichigainai",   "pattern": "Plain form + に違いない",       "meaning": "must be ~; certainly ~ (strong conviction)",    "level": "N2"},
+    {"id": "g3_wotsujite",     "pattern": "Noun + を通じて / を通して",    "meaning": "through ~; via ~; throughout ~",               "level": "N2"},
+    {"id": "g3_nikanshite",    "pattern": "Noun + に関して / に関する",    "meaning": "regarding ~; concerning ~",                    "level": "N2"},
     {"id": "g3_wokkake",       "pattern": "Noun + をきっかけに",           "meaning": "using ~ as a trigger; triggered by ~",         "level": "N3"},
     {"id": "g3_gachi",         "pattern": "V-stem + がちだ / がちな",      "meaning": "tend to ~; apt to ~ (often negative)",         "level": "N3"},
     {"id": "g3_nagara_adv",    "pattern": "V-stem + ながら (adversative)", "meaning": "despite ~; although ~ (contradictory)",        "level": "N3"},
@@ -3590,13 +3590,13 @@ N3_GRAMMAR_PATTERNS = [
     {"id": "g3_towakagiranai", "pattern": "Plain + とは限らない",          "meaning": "not necessarily ~; not always ~",              "level": "N3"},
     {"id": "g3_saini",         "pattern": "Noun/V plain + 際に",          "meaning": "when ~; on the occasion of ~ (formal)",        "level": "N3"},
     {"id": "g3_yorimocomp",    "pattern": "Noun + よりも",                 "meaning": "more than ~ (emphatic comparison)",             "level": "N3"},
-    {"id": "g3_tsutsuaru",     "pattern": "V-stem + つつある",             "meaning": "is in the process of ~ing; gradually ~ing",    "level": "N3"},
+    {"id": "g3_tsutsuaru",     "pattern": "V-stem + つつある",             "meaning": "is in the process of ~ing; gradually ~ing",    "level": "N2"},
     # ── Patterns from 第四章 ─────────────────────────────────────────────────
     {"id": "g3_kotoninatteiru","pattern": "V plain + ことになっている",    "meaning": "it is supposed to ~; standing rule/arrangement","level": "N3"},
     {"id": "g3_bakaridenaku",  "pattern": "Noun/plain + ばかりでなく",     "meaning": "not only ~ but also ~",                        "level": "N3"},
-    {"id": "g3_ippode",        "pattern": "Clause + 一方で",              "meaning": "on the other hand; while ~ (contrast)",         "level": "N3"},
-    {"id": "g3_wake_niwa",     "pattern": "V plain + わけにはいかない",    "meaning": "cannot afford to ~; must not ~",               "level": "N3"},
-    {"id": "g3_zuni_irarenu",  "pattern": "V-ない stem + ずにはいられない","meaning": "can't help but ~; compelled to ~",             "level": "N3"},
+    {"id": "g3_ippode",        "pattern": "Clause + 一方で",              "meaning": "on the other hand; while ~ (contrast)",         "level": "N2"},
+    {"id": "g3_wake_niwa",     "pattern": "V plain + わけにはいかない",    "meaning": "cannot afford to ~; must not ~",               "level": "N2"},
+    {"id": "g3_zuni_irarenu",  "pattern": "V-ない stem + ずにはいられない","meaning": "can't help but ~; compelled to ~",             "level": "N2"},
     {"id": "g3_koto_ga_aru",   "pattern": "V past + ことがある",           "meaning": "have had the experience of ~",                 "level": "N3"},
     # ── Patterns from 第五章 ─────────────────────────────────────────────────
     {"id": "g3_sasetemoraeru", "pattern": "V-causative stem + てもらえませんか","meaning": "would it be all right if I ~ (seeking permission humbly)","level": "N3"},
@@ -3625,7 +3625,1530 @@ N3_GRAMMAR_PATTERNS = [
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Final export — both levels
+# N2 Passage — 「社会人への一歩」The First Step into Society
+# Story: Kenji is now a working professional at a Tokyo translation company.
+# Covers ~40 core N2 grammar patterns with N2-level vocabulary and kanji.
+# ─────────────────────────────────────────────────────────────────────────────
+
+N2_SEGMENTS = [
+
+    # ── 第一章: 入社 (Chapter 1: Joining the Company) ─────────────────────────
+
+    {
+        "id": "n2_s01",
+        "translation": "After a long job search, Kenji finally joined a translation company in Tokyo.",
+        "section": "第一章: 入社 (Chapter 1: Joining the Company)",
+        "tokens": [
+            W("長い", "ながい", "long", "い形容詞 (i-adjective)", "N5"),
+            W("就職活動", "しゅうしょくかつどう", "job hunting", "名詞 (noun)", "N4"),
+            P("の", "possessive particle"),
+            G("末に", "すえに", "Noun + の末に",
+              "after (a long process); finally; at the end of",
+              "末に describes something that comes at the end of a sustained, often difficult process. "
+              "The clause before 末に was ongoing, and the clause after is the final outcome. "
+              "Similar to 最終的に, but 末に emphasizes the effort involved.",
+              "長い議論の末に、結論が出た。", "After a long discussion, they finally reached a conclusion.",
+              level="N2"),
+            T("、"),
+            N("健二", "けんじ", "Kenji"),
+            P("は", "topic marker"),
+            W("東京", "とうきょう", "Tokyo", "名詞 (noun)", "N5"),
+            P("の", "possessive particle"),
+            W("翻訳会社", "ほんやくがいしゃ", "translation company", "名詞 (noun)", "N4"),
+            P("に", "goal particle"),
+            W("入社した", "にゅうしゃした", "joined a company (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s02",
+        "translation": "On the occasion of joining the company, he vowed to himself to become a fully-fledged professional translator.",
+        "tokens": [
+            W("入社", "にゅうしゃ", "joining the company", "名詞 (noun)", "N3"),
+            G("にあたって", "にあたって", "Noun / V dict form + にあたって",
+              "on the occasion of; when; at the time of (important milestone)",
+              "にあたって marks a significant moment or occasion, implying that special attention or preparation "
+              "is appropriate. More formal than 〜とき. Often paired with resolve or preparation.",
+              "試験を受けるにあたって、よく準備した。",
+              "In preparation for taking the exam, I prepared thoroughly.", level="N2"),
+            T("、彼は"),
+            W("一人前", "いちにんまえ", "fully-fledged; independent professional", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("翻訳家", "ほんやくか", "translator", "名詞 (noun)", "N4"),
+            P("に", "goal particle"),
+            W("なる", "なる", "to become", "動詞 (verb)", "N5"),
+            P("と", "quotation particle"),
+            W("自分", "じぶん", "oneself", "名詞 (noun)", "N4"),
+            P("に", "indirect object particle"),
+            W("誓った", "ちかった", "vowed; pledged (past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s03",
+        "translation": "As expected of a company with a long history, the workplace environment was meticulously well-organized.",
+        "tokens": [
+            W("長い", "ながい", "long", "い形容詞 (i-adjective)", "N5"),
+            W("歴史", "れきし", "history", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("持つ", "もつ", "having; possessing", "動詞 (verb)", "N4"),
+            W("会社", "かいしゃ", "company", "名詞 (noun)", "N5"),
+            G("だけあって", "だけあって", "Noun / plain form + だけあって",
+              "as expected of; just as one would expect from; worthy of",
+              "だけあって implies the result is natural or deserved given the background or reputation. "
+              "Used to acknowledge quality or achievement in light of credentials or experience. "
+              "The speaker considers the outcome fitting, not surprising.",
+              "プロだけあって、仕事が速い。",
+              "As you would expect from a professional, the work is fast.", level="N2"),
+            T("、"),
+            W("職場環境", "しょくばかんきょう", "workplace environment", "名詞 (noun)", "N2"),
+            P("は", "topic marker"),
+            W("整えられていた", "ととのえられていた", "was well-organized (passive progressive past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s04",
+        "translation": "His supervisor was a calm yet strict veteran translator.",
+        "tokens": [
+            W("上司", "じょうし", "supervisor; superior", "名詞 (noun)", "N3"),
+            P("は", "topic marker"),
+            T("、"),
+            W("ベテラン", "べてらん", "veteran; experienced person", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("翻訳家", "ほんやくか", "translator", "名詞 (noun)", "N4"),
+            T("で、"),
+            W("穏やか", "おだやか", "calm; gentle; mild", "な形容詞 (na-adjective)", "N3"),
+            G("ながら", "ながら", "Adj stem / Noun + ながら(も)",
+              "while being; although; despite being (contrast between two qualities)",
+              "ながら(も) after a noun or adjective expresses a surprising contrast: 'A, yet also B'. "
+              "Unlike the simultaneous-action ながら (V-stem + ながら), this form contrasts two coexisting states. "
+              "The second quality is unexpected given the first.",
+              "貧しいながらも、幸せに暮らしていた。",
+              "Although poor, they lived happily.", level="N2"),
+            T("も"),
+            W("厳しい", "きびしい", "strict; severe", "い形容詞 (i-adjective)", "N4"),
+            W("人", "ひと", "person", "名詞 (noun)", "N5"),
+            T("だった。"),
+        ],
+    },
+
+    {
+        "id": "n2_s05",
+        "translation": "Now that he had taken on this job, there was no turning back.",
+        "tokens": [
+            W("この仕事", "このしごと", "this job", "名詞 (noun)", "N5"),
+            P("を", "object particle"),
+            W("引き受けた", "ひきうけた", "took on; accepted (past)", "動詞 (verb)", "N3"),
+            G("からには", "からには", "V plain past / plain form + からには",
+              "now that; since; given that (a natural obligation or resolve follows)",
+              "からには expresses that once a decision or action has been taken, a commitment naturally follows. "
+              "Similar to 以上は (いじょうは). Often followed by expressions of resolve, obligation, or determination. "
+              "The speaker treats the preceding fact as a firm condition.",
+              "約束したからには、必ず守らなければならない。",
+              "Now that I've made a promise, I must keep it.", level="N2"),
+            T("、後には引けない。"),
+        ],
+    },
+
+    {
+        "id": "n2_s06",
+        "translation": "As the workload increased, the time pressure also grew proportionally.",
+        "tokens": [
+            W("仕事量", "しごとりょう", "workload; amount of work", "名詞 (noun)", "N3"),
+            P("が", "subject marker"),
+            W("増える", "ふえる", "to increase", "動詞 (verb)", "N4"),
+            G("に伴って", "にともなって", "Noun / V plain + に伴って",
+              "along with; as ~ increases; in proportion to (two things changing simultaneously)",
+              "に伴って describes two things changing in parallel — as A changes, B also changes accordingly. "
+              "に伴い is the slightly more formal written variant. "
+              "Contrast with につれて (as ~ gradually): に伴って often implies a stronger causal link.",
+              "技術の発展に伴って、生活が便利になった。",
+              "As technology advanced, life became more convenient.", level="N2"),
+            T("、"),
+            W("時間的な", "じかんてきな", "time-related; temporal", "な形容詞 (na-adjective)", "N2"),
+            W("プレッシャー", "ぷれっしゃー", "pressure", "名詞 (noun)", "N3"),
+            P("も", "also particle"),
+            W("大きくなった", "おおきくなった", "became greater; grew (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s07",
+        "translation": "The first project he was assigned spanned fifty pages of technical documentation.",
+        "tokens": [
+            W("最初", "さいしょ", "first; beginning", "名詞 (noun)", "N4"),
+            P("に", "order particle"),
+            W("担当した", "たんとうした", "was in charge of; handled (past)", "動詞 (verb)", "N3"),
+            W("案件", "あんけん", "case; project; matter", "名詞 (noun)", "N2"),
+            P("は", "topic marker"),
+            T("、五十ページ"),
+            G("にわたる", "にわたる", "Noun + にわたる / にわたって",
+              "spanning; covering (a range of time, pages, or topics); throughout",
+              "にわたる (attributive) / にわたって (adverbial) indicates the extent or range over which something extends — "
+              "time, pages, distance, or subject matter. Emphasizes breadth or duration. "
+              "Different from を通じて (via a medium): にわたる focuses on how much territory something covers.",
+              "三日間にわたる話し合いの末、合意した。",
+              "After negotiations spanning three days, they reached an agreement.", level="N2"),
+            W("技術文書", "ぎじゅつぶんしょ", "technical document", "名詞 (noun)", "N2"),
+            T("だった。"),
+        ],
+    },
+
+    {
+        "id": "n2_s08",
+        "translation": "Every time he encountered an unfamiliar technical term, he consulted both the dictionary and his supervisor.",
+        "tokens": [
+            W("知らない", "しらない", "unfamiliar; unknown", "動詞 (verb)", "N5"),
+            W("専門用語", "せんもんようご", "technical term; specialized terminology", "名詞 (noun)", "N2"),
+            P("に", "encounter particle"),
+            W("出会う", "であう", "to encounter; to come across", "動詞 (verb)", "N3"),
+            G("たびに", "たびに", "V plain / Noun + のたびに",
+              "every time; whenever (a repeated pattern)",
+              "たびに expresses that each occurrence of A triggers B — a consistent pattern. "
+              "V plain + たびに: each time the action happens. "
+              "Noun + のたびに: on every occasion of the noun. "
+              "The events are not planned — they occur naturally each time.",
+              "この曲を聴くたびに、あの頃を思い出す。",
+              "Every time I hear this song, I remember those days.", level="N3"),
+            T("、辞書と"),
+            W("上司", "じょうし", "supervisor", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("両方", "りょうほう", "both", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("頼った", "たよった", "relied on; turned to (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    # ── 第二章: 仕事の壁 (Chapter 2: The Wall of Work) ─────────────────────────
+
+    {
+        "id": "n2_s09",
+        "translation": "Far from being a job he could manage easily, translation required both linguistic sensitivity and specialized knowledge.",
+        "section": "第二章: 仕事の壁 (Chapter 2: The Wall of Work)",
+        "tokens": [
+            W("楽に", "らくに", "easily; comfortably", "副詞 (adverb)", "N4"),
+            W("こなせる", "こなせる", "able to handle; able to manage (potential)", "動詞 (verb)", "N3"),
+            W("仕事", "しごと", "work; job", "名詞 (noun)", "N5"),
+            G("どころか", "どころか", "Noun / V plain + どころか",
+              "far from; not at all; on the contrary (strong reversal of assumption)",
+              "どころか strongly negates an assumed state. A どころか B = 'not only not A, but B (which is more extreme)'. "
+              "The second clause typically presents the opposite or a more severe reality. "
+              "More emphatic than のに or ではなく.",
+              "休めるどころか、仕事が増えた。",
+              "Far from being able to rest, the work only increased.", level="N2"),
+            T("、翻訳には"),
+            W("言語的な", "げんごてきな", "linguistic", "な形容詞 (na-adjective)", "N2"),
+            W("感性", "かんせい", "sensitivity; sensibility", "名詞 (noun)", "N2"),
+            P("と", "and particle"),
+            W("専門知識", "せんもんちしき", "specialized knowledge", "名詞 (noun)", "N2"),
+            P("の", "possessive particle"),
+            W("両方", "りょうほう", "both", "名詞 (noun)", "N4"),
+            P("が", "subject marker"),
+            W("必要だった", "ひつようだった", "was necessary (past)", "な形容詞 (na-adjective)", "N5"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s10",
+        "translation": "Not only translation ability but also knowledge of specialized fields such as medicine and law was required.",
+        "tokens": [
+            W("翻訳力", "ほんやくりょく", "translation ability", "名詞 (noun)", "N2"),
+            G("ばかりでなく", "ばかりでなく", "Noun / plain form + ばかりでなく(〜も)",
+              "not only ~ but also; not just ~ but even (additional emphasis)",
+              "ばかりでなく adds something beyond what is already established. "
+              "Similar to だけでなく but slightly more emphatic. "
+              "The second clause presents something more surprising or more extensive.",
+              "彼は英語ばかりでなく、中国語も話せる。",
+              "Not only English, but he can also speak Chinese.", level="N3"),
+            T("、医学や法律などの"),
+            W("専門分野", "せんもんぶんや", "specialized field", "名詞 (noun)", "N2"),
+            P("の", "possessive particle"),
+            W("知識", "ちしき", "knowledge", "名詞 (noun)", "N4"),
+            P("も", "also particle"),
+            W("求められた", "もとめられた", "was required (passive past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s11",
+        "translation": "Due to a terminology error, an important document had to be completely redone.",
+        "tokens": [
+            W("用語", "ようご", "term; terminology", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("誤り", "あやまり", "error; mistake", "名詞 (noun)", "N3"),
+            G("せいで", "せいで", "Noun / plain form + せいで",
+              "because of; due to (negative cause — explaining or blaming a bad result)",
+              "せいで assigns blame or explains a negative outcome. "
+              "Contrast: おかげで (positive outcome, thanks to) vs せいで (negative outcome, because of). "
+              "Can be self-deprecating (自分のせいで) or used to blame an external factor.",
+              "寝坊したせいで、電車に乗り遅れた。",
+              "Because I overslept, I missed the train.", level="N3"),
+            T("、重要な書類が"),
+            W("全部", "ぜんぶ", "all; completely", "副詞 (adverb)", "N4"),
+            W("やり直しになった", "やりなおしになった", "had to be redone (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s12",
+        "translation": "Thanks to his supervisor's swift and careful guidance, a corrected version was submitted by evening.",
+        "tokens": [
+            W("上司", "じょうし", "supervisor", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("迅速", "じんそく", "swift; prompt", "な形容詞 (na-adjective)", "N2"),
+            P("で", "copula て-form"),
+            W("丁寧な", "ていねいな", "careful; polite", "な形容詞 (na-adjective)", "N4"),
+            W("指導", "しどう", "guidance; instruction", "名詞 (noun)", "N3"),
+            G("おかげで", "おかげで", "Noun / plain form + おかげで",
+              "thanks to; owing to (positive cause — something good happened because of this)",
+              "おかげで attributes a positive outcome to a cause or person. "
+              "Contrast with せいで (negative outcome). "
+              "Can be used sarcastically in conversation, but in formal contexts always expresses genuine gratitude.",
+              "先生のおかげで、試験に合格できた。",
+              "Thanks to my teacher, I was able to pass the exam.", level="N3"),
+            T("、修正版を夕方までに"),
+            W("提出できた", "ていしゅつできた", "was able to submit (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s13",
+        "translation": "On the other hand, even though the mistake was corrected, his confidence took a significant blow.",
+        "tokens": [
+            G("一方で", "いっぽうで", "一方（で）",
+              "on the other hand; at the same time; while (contrasting or parallel situation)",
+              "一方で introduces a contrasting or simultaneous aspect. "
+              "A 一方で B = 'while A is true, B is also true'. "
+              "Can contrast two people, trends, or aspects of the same situation. "
+              "一方(では) emphasizes the contrast more.",
+              "経済は成長している一方で、格差も広がっている。",
+              "While the economy is growing, the gap is also widening.", level="N2"),
+            T("、ミスを修正した"),
+            G("ものの", "ものの", "V plain / Adj plain + ものの",
+              "even though; although (A was done, but the expected result did not follow)",
+              "ものの concedes A is true, but B (a contradictory or disappointing reality) follows. "
+              "Similar to けれど or のに, but more formal and literary. "
+              "The A clause often describes an action taken; B is the frustrating or unexpected reality.",
+              "申し込んだものの、まだ連絡が来ない。",
+              "Although I applied, I still haven't heard back.", level="N2"),
+            T("、"),
+            W("自信", "じしん", "confidence; self-confidence", "名詞 (noun)", "N3"),
+            P("に", "target particle"),
+            W("大きな", "おおきな", "large; significant", "連体詞 (pre-noun adj.)", "N4"),
+            W("傷", "きず", "wound; damage; blow", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("負った", "おった", "suffered; received (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s14",
+        "translation": "Even so, from the fact that translators pile up failures and grow through them, he couldn't give up.",
+        "tokens": [
+            G("といっても", "といっても", "plain form + といっても",
+              "even so; even though I say ~; that said (limiting a prior statement)",
+              "といっても qualifies or limits a preceding statement. "
+              "It prevents the listener from drawing too strong a conclusion from A. "
+              "Common pattern: A — といっても、B (Yes, A — but don't take it too far; B limits it).",
+              "日本語が話せるといっても、まだ初心者です。",
+              "Even though I can speak Japanese, I'm still a beginner.", level="N2"),
+            T("、"),
+            W("失敗", "しっぱい", "failure; mistake", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("重ねる", "かさねる", "to pile up; to accumulate", "動詞 (verb)", "N3"),
+            G("ことから", "ことから", "plain form + ことから",
+              "from the fact that; because (inferring or learning from evidence)",
+              "ことから indicates the basis or evidence from which something is inferred or understood. "
+              "It describes a reasoning process: 'Given A (the fact), we can see/conclude B'. "
+              "More formal than から as a plain reason.",
+              "彼がよく笑うことから、性格が明るいとわかる。",
+              "From the fact that he laughs a lot, you can tell he has a cheerful personality.", level="N2"),
+            T("こそ翻訳家は"),
+            W("成長する", "せいちょうする", "to grow; to develop", "動詞 (verb)", "N4"),
+            T("のだ。"),
+            W("諦める", "あきらめる", "to give up", "動詞 (verb)", "N3"),
+            G("わけにはいかなかった", "わけにはいかなかった", "V plain + わけにはいかない",
+              "can't possibly ~; not in a position to ~ (social or moral constraint; past)",
+              "わけにはいかない describes an action the speaker cannot take because social expectations, "
+              "obligations, or circumstances forbid it. "
+              "Different from できない (lack of ability) — this is about appropriateness or obligation. "
+              "わけにはいかなかった is the past form.",
+              "試合の途中で帰るわけにはいかない。",
+              "I can't just leave in the middle of the game.", level="N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s15",
+        "translation": "When he saw his translated text published in a book for the first time, he couldn't help feeling moved.",
+        "tokens": [
+            W("初めて", "はじめて", "for the first time", "副詞 (adverb)", "N4"),
+            W("自分", "じぶん", "one's own", "名詞 (noun)", "N4"),
+            P("の", "possessive particle"),
+            W("訳文", "やくぶん", "translated text", "名詞 (noun)", "N2"),
+            P("が", "subject marker"),
+            W("本", "ほん", "book", "名詞 (noun)", "N5"),
+            P("に", "location particle"),
+            W("載った", "のった", "was published; appeared in (past)", "動詞 (verb)", "N3"),
+            W("とき", "とき", "when; at the time", "名詞 (noun)", "N4"),
+            T("、"),
+            G("感動せずにはいられなかった", "かんどうせずにはいられなかった",
+              "V ず-form + にはいられない",
+              "can't help but; can't stop oneself from ~ (involuntary urge; past: could not help)",
+              "ずにはいられない is the literary/formal equivalent of ないではいられない. "
+              "It expresses an uncontrollable urge or involuntary action — 'cannot remain in a state of not doing'. "
+              "Formation: replace ない with ず + にはいられない. Exception: する → せずにはいられない. "
+              "The past form いられなかった means 'could not help but'.",
+              "その映画を見て、泣かずにはいられなかった。",
+              "I couldn't help crying when I watched that movie.", level="N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s16",
+        "translation": "Those feelings were hard to put into words, yet he was certain he would never forget them.",
+        "tokens": [
+            W("その感動", "そのかんどう", "those feelings of emotion", "名詞 (noun)", "N3"),
+            P("は", "topic marker"),
+            W("言葉", "ことば", "words", "名詞 (noun)", "N4"),
+            P("に", "target particle"),
+            G("しがたかった", "しがたかった", "V-stem + がたい",
+              "hard to; difficult to (emotionally or circumstantially difficult; past: was hard to)",
+              "がたい attaches to a verb stem and expresses that something is difficult — "
+              "not because of physical inability, but because of emotional or circumstantial difficulty. "
+              "Formal; common in writing. "
+              "Compare: にくい (physically difficult to do), がたい (emotionally or morally hard to do).",
+              "彼の気持ちは理解しがたい。",
+              "His feelings are hard to understand.", level="N2"),
+            G("ものの", "ものの", "V plain / Adj plain + ものの",
+              "even though; although (A is true, but B contradicts or follows unexpectedly)",
+              "ものの concedes A but introduces a surprising or contradictory B. Formal and literary.",
+              "わかったものの、どう説明すればいいかわからない。",
+              "I understand it, but I don't know how to explain it.", level="N2"),
+            T("、"),
+            W("一生", "いっしょう", "a lifetime; one's whole life", "名詞 (noun)", "N4"),
+            W("忘れない", "わすれない", "will never forget", "動詞 (verb)", "N4"),
+            P("と", "quotation particle"),
+            W("確信していた", "かくしんしていた", "was certain; was convinced (progressive past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    # ── 第三章: 成長 (Chapter 3: Growth) ────────────────────────────────────────
+
+    {
+        "id": "n2_s17",
+        "translation": "As his skills improved, he was gradually entrusted with more complex and important work.",
+        "section": "第三章: 成長 (Chapter 3: Growth)",
+        "tokens": [
+            W("スキル", "すきる", "skills; ability", "名詞 (noun)", "N3"),
+            P("が", "subject marker"),
+            W("上がる", "あがる", "to rise; to improve", "動詞 (verb)", "N4"),
+            G("にしたがって", "にしたがって", "Noun / V dict form + にしたがって",
+              "as ~ changes / progresses (proportional change); in accordance with / following",
+              "にしたがって describes a proportional change: as A progresses, B also changes accordingly. "
+              "It also means 'following rules or instructions'. "
+              "Similar to に伴って but can mean 'in accordance with' (following guidance).",
+              "時間が経つにしたがって、記憶が薄れた。",
+              "As time passed, the memories faded.", level="N2"),
+            T("、より"),
+            W("複雑", "ふくざつ", "complex; complicated", "な形容詞 (na-adjective)", "N3"),
+            P("で", "copula て-form"),
+            W("重要な", "じゅうような", "important", "な形容詞 (na-adjective)", "N4"),
+            W("仕事", "しごと", "work", "名詞 (noun)", "N5"),
+            P("を", "object particle"),
+            W("任されるようになった", "まかされるようになった",
+              "came to be entrusted with (passive + came to)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s18",
+        "translation": "Based on past translation examples, he built his own original glossary.",
+        "tokens": [
+            W("過去", "かこ", "past", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("翻訳例", "ほんやくれい", "translation examples; sample translations", "名詞 (noun)", "N2"),
+            G("をもとに", "をもとに", "Noun + をもとに",
+              "based on; using ~ as a foundation; drawing on (creative or interpretive basis)",
+              "をもとに indicates that something is used as the base from which something else is created or done. "
+              "Often more creative or interpretive than に基づいて (formal, following rules/data). "
+              "をもとにした + Noun = 'a ~ based on ~'.",
+              "このドラマは実話をもとにしている。",
+              "This drama is based on a true story.", level="N2"),
+            T("、"),
+            W("独自の", "どくじの", "original; unique; one's own", "連体詞 (pre-noun adj.)", "N3"),
+            W("用語集", "ようごしゅう", "glossary; terminology list", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("作り上げた", "つくりあげた", "created; built up (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s19",
+        "translation": "Throughout the year, he handled projects spanning various fields — medicine, law, and IT.",
+        "tokens": [
+            W("一年間", "いちねんかん", "throughout the year; for one year", "名詞 (noun)", "N4"),
+            G("を通じて", "をつうじて", "Noun + を通じて",
+              "through; throughout; via; by means of (spanning a duration or channel)",
+              "を通じて indicates a medium, duration, or agent through which something happens. "
+              "In time contexts: 'throughout the entire period'. "
+              "In channel contexts: 'through/via a medium'. "
+              "を通して (using 通す) tends to emphasize the process of passing through; "
+              "を通じて (通じる) tends to be more set-phrase, especially for time or networks.",
+              "SNSを通じて、情報が広まった。",
+              "Information spread through social media.", level="N2"),
+            T("、"),
+            W("医学", "いがく", "medicine; medical science", "名詞 (noun)", "N3"),
+            T("や"),
+            W("法律", "ほうりつ", "law", "名詞 (noun)", "N3"),
+            T("、IT"),
+            P("など", "listing particle"),
+            W("様々な", "さまざまな", "various; diverse", "連体詞 (pre-noun adj.)", "N3"),
+            W("業界", "ぎょうかい", "industry; business sector", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("案件", "あんけん", "project; case", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("担当した", "たんとうした", "handled; was in charge of (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s20",
+        "translation": "While using the company's style guide, he also gradually established his own approach.",
+        "tokens": [
+            W("会社", "かいしゃ", "company", "名詞 (noun)", "N5"),
+            P("の", "possessive particle"),
+            W("スタイルガイド", "すたいるがいど", "style guide", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("使い", "つかい", "use (stem of 使う)", "動詞 (verb)", "N5"),
+            G("つつ", "つつ", "V-stem + つつ(も)",
+              "while doing (simultaneous); even while / although (literary contrast)",
+              "つつ is literary/formal with two uses: "
+              "① Simultaneous action: while doing A, also doing B (like ながら, but more formal). "
+              "② Contrast: even while knowing/doing A, B (which contradicts A) happens. "
+              "つつも adds emphasis to the contrast. Common in written Japanese.",
+              "問題があるとわかりつつ、何も言わなかった。",
+              "Even while knowing there was a problem, I said nothing.", level="N2"),
+            T("も、"),
+            W("自分", "じぶん", "oneself", "名詞 (noun)", "N4"),
+            W("なりの", "なりの", "one's own kind of; in one's own way", "連体詞 (pre-noun adj.)", "N2"),
+            W("方法", "ほうほう", "method; approach", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("徐々に", "じょじょに", "gradually; little by little", "副詞 (adverb)", "N2"),
+            W("確立していった", "かくりつしていった",
+              "gradually established; built up (progressive past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s21",
+        "translation": "Taking client feedback into account, he constantly revised his methods and polished his translations.",
+        "tokens": [
+            W("クライアント", "くらいあんと", "client", "名詞 (noun)", "N2"),
+            P("の", "possessive particle"),
+            W("フィードバック", "ふぃーどばっく", "feedback", "名詞 (noun)", "N2"),
+            G("を踏まえて", "をふまえて", "Noun + を踏まえて",
+              "taking ~ into account; based on; in light of (active and deliberate)",
+              "を踏まえて means to carefully honor and act on something as a basis — not just reference it, but let it shape the action. "
+              "More deliberate than をもとに and more active than に基づいて.",
+              "前回の反省を踏まえて、計画を見直した。",
+              "Taking the previous reflection into account, I reviewed the plan.", level="N2"),
+            T("、"),
+            W("常に", "つねに", "always; constantly", "副詞 (adverb)", "N3"),
+            W("方法", "ほうほう", "method", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("見直し", "みなおし", "revision; review (stem)", "動詞 (verb)", "N3"),
+            T("、翻訳を"),
+            W("磨いていった", "みがいていった", "gradually polished; honed (progressive past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s22",
+        "translation": "He could not bring himself to submit a translation he wasn't satisfied with.",
+        "tokens": [
+            W("満足", "まんぞく", "satisfaction", "名詞 (noun)", "N4"),
+            T("できない"),
+            W("訳", "やく", "translation", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("提出し", "ていしゅつし", "submit (stem of 提出する)", "動詞 (verb)", "N3"),
+            G("かねた", "かねた", "V-stem + かねる",
+              "find it hard to; can't bring oneself to (emotional or moral reluctance; past: could not bring oneself to)",
+              "かねる attaches to a verb stem and expresses reluctance or inability to do something due to "
+              "emotional, moral, or situational difficulty — not lack of physical ability. "
+              "Formal; common in polite refusals. Formation: V-stem + かねる/かねます.",
+              "その依頼は引き受けかねます。",
+              "I'm afraid I am unable to accept that request.", level="N2"),
+            T("し、"),
+            W("満足するまで", "まんぞくするまで", "until satisfied", "動詞 (verb)", "N4"),
+            W("何度でも", "なんどでも", "any number of times; as many times as needed", "副詞 (adverb)", "N3"),
+            W("直した", "なおした", "corrected; fixed (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s23",
+        "translation": "He noticed that he was gradually becoming the kind of translator he had always aspired to be.",
+        "tokens": [
+            W("ずっと", "ずっと", "always; all along", "副詞 (adverb)", "N4"),
+            W("憧れていた", "あこがれていた", "had aspired to be; had longed for (progressive past)", "動詞 (verb)", "N3"),
+            W("翻訳家像", "ほんやくかぞう",
+              "ideal image of a translator; what kind of translator to be", "名詞 (noun)", "N2"),
+            P("に", "direction particle"),
+            T("、"),
+            W("少しずつ", "すこしずつ", "little by little; gradually", "副詞 (adverb)", "N4"),
+            W("近づき", "ちかづき", "approaching; getting closer (stem)", "動詞 (verb)", "N3"),
+            G("つつある", "つつある", "V-stem + つつある",
+              "is in the process of; is gradually ~ing (formal, ongoing change)",
+              "つつある expresses a gradual, ongoing change — something is actively in transition. "
+              "Literary and formal. Common in written reports, news, and literature. "
+              "The action is not complete; it is currently in progress and moving forward.",
+              "経済は回復しつつある。",
+              "The economy is in the process of recovering.", level="N2"),
+            W("自分", "じぶん", "oneself", "名詞 (noun)", "N4"),
+            P("に", "target particle"),
+            W("気づいた", "きづいた", "noticed; realized (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s24",
+        "translation": "Language itself must undoubtedly be the greatest teacher.",
+        "tokens": [
+            W("言語", "げんご", "language", "名詞 (noun)", "N3"),
+            T("そのものが、"),
+            W("最大の", "さいだいの", "the greatest; the largest", "連体詞 (pre-noun adj.)", "N3"),
+            W("師", "し", "teacher; master", "名詞 (noun)", "N2"),
+            T("で"),
+            G("あるに違いない", "あるにちがいない", "plain form + に違いない / にちがいない",
+              "must be; I'm certain that; there is no doubt (strong subjective deduction)",
+              "に違いない expresses a strong, confident deduction or personal certainty — "
+              "the speaker has no doubt. "
+              "Similar to はずだ (logical, objective expectation) but more subjective and emphatic. "
+              "Formal written variant: に相違ない (にそういない).",
+              "彼が合格したに違いない。",
+              "He must have passed.", level="N2"),
+            T("、と感じていた。"),
+        ],
+    },
+
+    # ── 第四章: 責任 (Chapter 4: Responsibility) ─────────────────────────────
+
+    {
+        "id": "n2_s25",
+        "translation": "Six months after joining the company, he was assigned leadership of a four-person team project.",
+        "section": "第四章: 責任 (Chapter 4: Responsibility)",
+        "tokens": [
+            W("入社", "にゅうしゃ", "joining the company", "名詞 (noun)", "N3"),
+            W("から", "から", "from; after (time)", "助詞 (particle)", "N5"),
+            W("半年後", "はんとしご", "six months later", "名詞 (noun)", "N3"),
+            T("、"),
+            W("四人チーム", "よにんちーむ", "four-person team", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("プロジェクト", "ぷろじぇくと", "project", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("リーダー", "りーだー", "leader", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("任された", "まかされた", "was entrusted with; was assigned (passive past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s26",
+        "translation": "Based on the client's requirements, the team discussed how to divide the work.",
+        "tokens": [
+            W("クライアント", "くらいあんと", "client", "名詞 (noun)", "N2"),
+            P("の", "possessive particle"),
+            W("要望", "ようぼう", "request; requirement; demand", "名詞 (noun)", "N3"),
+            G("に基づいて", "にもとづいて", "Noun + に基づいて",
+              "based on; in accordance with; grounded in (formal, logical basis)",
+              "に基づいて is more formal and logical than をもとに — it implies strictly following "
+              "established rules, data, criteria, or principles. "
+              "Common in official reports, legal documents, and academic writing. "
+              "に基づいた + Noun = 'a ~ based on ~'.",
+              "法律に基づいて、手続きを進めた。",
+              "The process was carried out in accordance with the law.", level="N2"),
+            T("、チームで"),
+            W("作業分担", "さぎょうぶんたん", "division of work; work assignments", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("話し合った", "はなしあった", "discussed together (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s27",
+        "translation": "Depending on the content, different sections were assigned to different translators.",
+        "tokens": [
+            W("内容", "ないよう", "content; subject matter", "名詞 (noun)", "N4"),
+            G("によって", "によって", "Noun + によって / による",
+              "depending on; due to; by (passive agent); varies according to",
+              "によって has three main uses: "
+              "① Passive agent: 〜によって作られた = made by ~. "
+              "② Depending on: 人によって違う = it differs depending on the person. "
+              "③ Cause/means: ミスによって = due to a mistake; 努力によって = by means of effort. "
+              "による is the attributive form: 〜による違い = differences due to ~.",
+              "人によって、考え方が違う。",
+              "Thinking varies depending on the person.", level="N2"),
+            T("、それぞれの翻訳者に"),
+            W("異なる", "ことなる", "different; varying", "動詞 (verb)", "N3"),
+            W("箇所", "かしょ", "section; part; location", "名詞 (noun)", "N3"),
+            P("が", "subject marker"),
+            W("割り当てられた", "わりあてられた", "was assigned; was allocated (passive past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s28",
+        "translation": "There was no way a deadline could be missed — needless to say, it was a major client.",
+        "tokens": [
+            W("締め切り", "しめきり", "deadline", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("守れない", "まもれない", "cannot meet; cannot keep (negative potential)", "動詞 (verb)", "N3"),
+            G("わけがない", "わけがない", "plain form + わけがない",
+              "there's no way ~; cannot possibly be (logical impossibility)",
+              "わけがない expresses logical impossibility — the speaker considers the situation completely out of the question. "
+              "Stronger and more logical than できない (which describes lack of ability). "
+              "Contrast: わけにはいかない (social/moral constraint prevents it).",
+              "あの人が嘘をつくわけがない。",
+              "There's no way that person would lie.", level="N2"),
+            T("。"),
+            W("大口クライアント", "おおぐちくらいあんと", "major client; large-account client", "名詞 (noun)", "N2"),
+            T("である"),
+            G("ことは言うまでもない", "ことはいうまでもない",
+              "Noun / plain form + は言うまでもない",
+              "needless to say; it goes without saying; is too obvious to state",
+              "言うまでもない literally means 'there is no need to say'. "
+              "Used when something is so obvious it doesn't even need to be stated. "
+              "Stronger than もちろん or 当然.",
+              "健康が大切なことは言うまでもない。",
+              "Needless to say, health is important.", level="N2"),
+            T("からだ。"),
+        ],
+    },
+
+    {
+        "id": "n2_s29",
+        "translation": "Regarding the deadline, he communicated the situation transparently to the client.",
+        "tokens": [
+            W("締め切り", "しめきり", "deadline", "名詞 (noun)", "N3"),
+            G("に関して", "にかんして", "Noun + に関して / に関する",
+              "regarding; concerning; about (formal — for professional or serious topics)",
+              "に関して is more formal than について. Used in professional, official, or academic contexts. "
+              "に関する is the attributive form (pre-noun): 〜に関する問題 = 'a problem regarding ~'. "
+              "について is more common in everyday speech and casual writing.",
+              "この問題に関して、意見を聞かせてください。",
+              "Regarding this issue, please let me hear your opinion.", level="N2"),
+            T("は、"),
+            W("クライアント", "くらいあんと", "client", "名詞 (noun)", "N2"),
+            P("に", "indirect object particle"),
+            W("状況", "じょうきょう", "situation; circumstances", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("透明に", "とうめいに", "transparently; openly", "副詞 (adverb)", "N2"),
+            W("伝えた", "つたえた", "conveyed; communicated (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s30",
+        "translation": "He had no choice but to work overtime for several nights in a row.",
+        "tokens": [
+            W("何晩も", "なんばんも", "several nights; many nights in a row", "副詞 (adverb)", "N2"),
+            W("連続で", "れんぞくで", "consecutively; in a row", "副詞 (adverb)", "N3"),
+            W("残業する", "ざんぎょうする", "to work overtime", "動詞 (verb)", "N3"),
+            G("ざるを得なかった", "ざるをえなかった", "V-ない stem + ざるを得ない",
+              "have no choice but to; forced to; can't help but (formal compulsion; past: had no choice but)",
+              "ざるを得ない is a formal literary pattern expressing unavoidable compulsion — "
+              "the speaker truly has no real alternative. "
+              "Formation: replace ない with ず + ざるを得ない (or: V-ない stem + ざるを得ない). "
+              "Exception: する → せざるを得ない. "
+              "Very close to しなければならない but emphasizes external constraint more strongly.",
+              "締め切りがあるので、徹夜せざるを得なかった。",
+              "Because there was a deadline, I had no choice but to work through the night.", level="N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s31",
+        "translation": "Together with the entire team's efforts, the project was completed on schedule.",
+        "tokens": [
+            W("チーム全員", "ちーむぜんいん", "the entire team", "名詞 (noun)", "N3"),
+            G("とともに", "とともに", "Noun + とともに",
+              "together with; along with; as ~ (simultaneous change or accompaniment)",
+              "とともに has two uses: "
+              "① Accompaniment/togetherness: A とともに B = 'together with A, B'. "
+              "② Simultaneous change: as A happens, B also happens (parallel progression). "
+              "More literary/formal than と一緒に.",
+              "時代の変化とともに、言語も変わる。",
+              "As times change, language also changes.", level="N2"),
+            P("の", "possessive particle"),
+            W("努力", "どりょく", "effort; hard work", "名詞 (noun)", "N4"),
+            G("おかげで", "おかげで", "Noun / plain form + おかげで",
+              "thanks to; owing to (positive cause)",
+              "おかげで attributes a positive result to a preceding cause or person.",
+              "みんなのおかげで成功した。",
+              "Thanks to everyone, it was a success.", level="N3"),
+            T("、プロジェクトは"),
+            W("期日通りに", "きじつどおりに", "on time; on schedule; as planned", "副詞 (adverb)", "N2"),
+            W("完成した", "かんせいした", "was completed; finished (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s32",
+        "translation": "Through this experience, he realized that translation is nothing other than an act of communication.",
+        "tokens": [
+            W("この経験", "このけいけん", "this experience", "名詞 (noun)", "N4"),
+            G("を通して", "をとおして", "Noun + を通して",
+              "through; by means of; via (passing through a channel or experience)",
+              "を通して emphasizes passing through something as a medium or vehicle. "
+              "を通じて tends to emphasize the whole duration or network; "
+              "を通して emphasizes the act of going through something to reach understanding or connection.",
+              "経験を通して、人は成長する。",
+              "Through experience, people grow.", level="N2"),
+            T("、"),
+            W("翻訳", "ほんやく", "translation", "名詞 (noun)", "N4"),
+            P("は", "topic marker"),
+            W("コミュニケーション", "こみゅにけーしょん", "communication", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("行為", "こうい", "act; action", "名詞 (noun)", "N3"),
+            G("にほかならない", "にほかならない", "Noun / plain form + にほかならない",
+              "nothing other than; is exactly; is precisely (strong, exclusive identification)",
+              "にほかならない identifies something as being precisely and exclusively that thing — "
+              "there is no other description. Formal and emphatic. "
+              "More literary than だ or にすぎない (which means 'merely').",
+              "成功の理由は努力にほかならない。",
+              "The reason for success is nothing other than hard work.", level="N2"),
+            T("と気づいた。"),
+        ],
+    },
+
+    # ── 第五章: 未来へ (Chapter 5: Toward the Future) ─────────────────────────
+
+    {
+        "id": "n2_s33",
+        "translation": "Now he was working steadily toward becoming a senior translator within three years.",
+        "section": "第五章: 未来へ (Chapter 5: Toward the Future)",
+        "tokens": [
+            W("今", "いま", "now", "名詞 (noun)", "N5"),
+            P("は", "topic marker"),
+            T("、"),
+            W("三年以内", "さんねんいない", "within three years", "名詞 (noun)", "N3"),
+            P("に", "goal/target particle"),
+            W("シニア翻訳家", "しにあほんやくか", "senior translator", "名詞 (noun)", "N2"),
+            P("に", "goal particle"),
+            W("なること", "なること", "becoming (nominalized goal)", "動詞 (verb)", "N5"),
+            G("に向けて", "にむけて", "Noun + に向けて",
+              "toward; aimed at; working toward; with the goal of",
+              "に向けて describes direction or orientation of an action — physically or metaphorically. "
+              "Emphasizes movement or effort directed at a goal or target. "
+              "Contrast: に向かって = physically moving toward; に向けて = aimed at a goal.",
+              "試験に向けて、毎日勉強している。",
+              "I study every day toward (in preparation for) the exam.", level="N2"),
+            T("、努力を"),
+            W("続けていた", "つづけていた", "was continuing; kept on (progressive past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s34",
+        "translation": "Not limited to Japanese-English translation, he had also begun studying Chinese.",
+        "tokens": [
+            W("日英翻訳", "にちえいほんやく", "Japanese-English translation", "名詞 (noun)", "N2"),
+            G("にとどまらず", "にとどまらず", "Noun / V plain + にとどまらず",
+              "not limited to; not stopping at; going beyond (the stated scope)",
+              "にとどまらず expresses that something does not stop at a certain point — it extends further. "
+              "A にとどまらず B = 'not only A, but also extending to B'. "
+              "More formal and literary than だけでなく.",
+              "被害は国内にとどまらず、海外にも広がった。",
+              "The damage was not limited to within the country; it spread overseas as well.", level="N2"),
+            T("、"),
+            W("中国語", "ちゅうごくご", "Chinese language", "名詞 (noun)", "N4"),
+            P("の", "possessive particle"),
+            W("学習", "がくしゅう", "study; learning", "名詞 (noun)", "N4"),
+            P("も", "also particle"),
+            W("始めていた", "はじめていた", "had begun (progressive past)", "動詞 (verb)", "N5"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s35",
+        "translation": "While maintaining his current work, he also pursued further study without neglecting either.",
+        "tokens": [
+            W("現在の仕事", "げんざいのしごと", "current work", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("続け", "つづけ", "continuing (stem of 続ける)", "動詞 (verb)", "N4"),
+            G("ながらも", "ながらも", "V-stem + ながら(も)",
+              "while doing A, also B; despite doing A, B follows (contrast or addition)",
+              "V-stem + ながら(も) adds a nuance of contrast or simultaneous effort — "
+              "doing B while also doing A, where B might seem difficult given A, or where A and B coexist unexpectedly. "
+              "More literary than and slightly more contrastive than plain ながら.",
+              "仕事をしながらも、資格を取った。",
+              "While working, he also obtained a qualification.", level="N2"),
+            T("、"),
+            W("さらなる", "さらなる", "further; additional (literary pre-noun form)", "連体詞 (pre-noun adj.)", "N2"),
+            W("勉強", "べんきょう", "study", "名詞 (noun)", "N5"),
+            P("を", "object particle"),
+            W("怠らなかった", "おこたらなかった",
+              "did not neglect; kept diligently at it (negative past of 怠る)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s36",
+        "translation": "Drawing on his own experiences, he began guiding newer junior colleagues.",
+        "tokens": [
+            W("自分自身", "じぶんじしん", "oneself; one's own self (emphatic)", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("経験", "けいけん", "experience", "名詞 (noun)", "N4"),
+            G("をもとに", "をもとに", "Noun + をもとに",
+              "based on; drawing on; using as a foundation",
+              "をもとに indicates something is used as the base from which something else is created or decided. "
+              "Creative or interpretive in character.",
+              "経験をもとに、アドバイスをした。",
+              "I gave advice based on my experience.", level="N2"),
+            T("、"),
+            W("後輩", "こうはい", "junior; newer colleague", "名詞 (noun)", "N4"),
+            W("たち", "たち", "plural suffix (people)", "接尾語 (suffix)", "N5"),
+            P("を", "object particle"),
+            W("指導し", "しどうし", "guide; instruct (stem of 指導する)", "動詞 (verb)", "N3"),
+            W("始めた", "はじめた", "began (past)", "動詞 (verb)", "N5"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s37",
+        "translation": "What he conveyed to them was nothing other than what his own respected mentor had once told him.",
+        "tokens": [
+            W("彼", "かれ", "he", "名詞 (noun)", "N5"),
+            P("が", "subject marker"),
+            W("後輩", "こうはい", "junior colleagues", "名詞 (noun)", "N4"),
+            P("に", "indirect object particle"),
+            W("伝えた", "つたえた", "conveyed; told (past)", "動詞 (verb)", "N4"),
+            T("こと"),
+            P("は", "topic marker"),
+            T("、かつて"),
+            W("自分", "じぶん", "oneself", "名詞 (noun)", "N4"),
+            P("が", "subject marker"),
+            W("恩師", "おんし", "respected mentor; teacher to whom one owes gratitude", "名詞 (noun)", "N2"),
+            P("に", "indirect object particle"),
+            W("言われた", "いわれた", "was told (passive past)", "動詞 (verb)", "N4"),
+            T("こと"),
+            G("にほかならなかった", "にほかならなかった", "Noun / plain form + にほかならない (past)",
+              "was nothing other than; was precisely (past form of にほかならない)",
+              "The past tense of にほかならない. Identifies something exclusively as that thing in a past context.",
+              "それは偶然にほかならなかった。",
+              "It was nothing other than coincidence.", level="N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s38",
+        "translation": "Needless to say, not only Japanese and English — the translator himself had also grown through this entire process.",
+        "tokens": [
+            W("日本語", "にほんご", "Japanese language", "名詞 (noun)", "N5"),
+            P("と", "and particle"),
+            W("英語", "えいご", "English language", "名詞 (noun)", "N5"),
+            G("はもとより", "はもとより", "Noun + はもとより",
+              "not only; let alone; needless to say (A is an obvious given — and beyond that, B also)",
+              "はもとより means A is already an obvious given, and beyond that, B also applies. "
+              "More emphatic than ばかりでなく. Formal and literary. "
+              "もとより alone means 'from the start; needless to say'.",
+              "基本はもとより、応用力も必要だ。",
+              "Not only the basics, but applied ability is also needed.", level="N2"),
+            T("、"),
+            W("翻訳家自身", "ほんやくかじしん", "the translator themselves", "名詞 (noun)", "N2"),
+            P("も", "also particle"),
+            W("この過程", "このかてい", "this process", "名詞 (noun)", "N3"),
+            G("を通じて", "をつうじて", "Noun + を通じて",
+              "through; by means of; throughout",
+              "を通じて indicates a medium, duration, or channel through which something happens.",
+              "経験を通じて成長した。",
+              "Grew through the experience.", level="N2"),
+            W("成長した", "せいちょうした", "grew; developed (past)", "動詞 (verb)", "N4"),
+            T("のだ。"),
+        ],
+    },
+
+    {
+        "id": "n2_s39",
+        "translation": "The dream he had nurtured since his student days — one that cannot be told without the struggles — was steadily becoming reality.",
+        "tokens": [
+            W("学生時代", "がくせいじだい", "student days; school years", "名詞 (noun)", "N4"),
+            P("から", "from particle"),
+            W("育ててきた", "そだててきた",
+              "had nurtured; had cultivated (past progressive toward present)", "動詞 (verb)", "N3"),
+            W("夢", "ゆめ", "dream", "名詞 (noun)", "N5"),
+            P("は", "topic marker"),
+            T("、"),
+            W("苦労", "くろう", "hardship; struggle", "名詞 (noun)", "N3"),
+            G("ぬきに", "ぬきに", "Noun + ぬきに / ぬきで",
+              "without; leaving out; setting aside (something important or difficult to omit)",
+              "ぬきに expresses doing something without including something that is normally present or important. "
+              "Often implies the omitted thing is significant or hard to avoid. "
+              "ぬきで is more casual; ぬきに is slightly more formal.",
+              "冗談ぬきに言うと、本当に心配しています。",
+              "Setting jokes aside, I am truly worried.", level="N2"),
+            T("は語れない"),
+            W("ものの", "ものの", "even though; although (conceding before contradiction)", "接続詞 (conjunction)", "N2"),
+            T("、着実に"),
+            W("現実", "げんじつ", "reality", "名詞 (noun)", "N4"),
+            P("に", "direction particle"),
+            W("近づいていた", "ちかづいていた", "was approaching; drawing closer (progressive past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s40",
+        "translation": "He murmured quietly to himself: language would surely always be the compass guiding his life.",
+        "tokens": [
+            W("言葉", "ことば", "language; words", "名詞 (noun)", "N4"),
+            P("こそ", "emphatic topic particle — 'it is precisely ~ that'"),
+            T("が、"),
+            W("生涯", "しょうがい", "lifetime; one's whole life", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("導く", "みちびく", "to guide; to lead", "動詞 (verb)", "N2"),
+            W("羅針盤", "らしんばん", "compass (metaphorical)", "名詞 (noun)", "N2"),
+            T("で"),
+            G("あり続けるに違いない", "ありつづけるにちがいない",
+              "V plain + に違いない",
+              "must be; I'm certain; there is no doubt (strong confident deduction)",
+              "に違いない is the kanji variant spelling of にちがいない — identical meaning. "
+              "Expresses strong, subjective certainty about a fact.",
+              "彼女は必ず成功するに違いない。",
+              "She is sure to succeed.", level="N2"),
+            T("と、彼は"),
+            W("心の中で", "こころのなかで", "in his heart; to himself; inwardly", "名詞 (noun)", "N3"),
+            W("呟いた", "つぶやいた", "murmured; whispered to oneself (past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    # ── 第六章: 専門的発展 (Chapter 6: Professional Development) ───────────────
+
+    {
+        "id": "n2_s41",
+        "translation": "At his supervisor's recommendation, he began writing specialist articles for an industry magazine.",
+        "section": "第六章: 専門的発展 (Chapter 6: Professional Development)",
+        "tokens": [
+            W("上司", "じょうし", "supervisor", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("推薦", "すいせん", "recommendation; referral", "名詞 (noun)", "N2"),
+            P("で", "reason/means particle"),
+            T("、"),
+            W("業界", "ぎょうかい", "industry; sector", "名詞 (noun)", "N3"),
+            W("雑誌", "ざっし", "magazine; journal", "名詞 (noun)", "N3"),
+            P("に", "location particle"),
+            W("専門", "せんもん", "specialty; expertise", "名詞 (noun)", "N2"),
+            W("記事", "きじ", "article; piece", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("書き始めた", "かきはじめた", "began writing (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s42",
+        "translation": "The articles he wrote were based on concrete evidence and organized according to clear logical standards.",
+        "tokens": [
+            W("書いた", "かいた", "wrote (past attributive)", "動詞 (verb)", "N5"),
+            W("記事", "きじ", "articles", "名詞 (noun)", "N4"),
+            P("は", "topic marker"),
+            T("、"),
+            W("具体的な", "ぐたいてきな", "concrete; specific", "な形容詞 (na-adjective)", "N3"),
+            W("証拠", "しょうこ", "evidence; proof", "名詞 (noun)", "N2"),
+            P("に", "basis particle"),
+            W("基づき", "もとづき", "based on (stem of 基づく)", "動詞 (verb)", "N3"),
+            T("、"),
+            W("明確な", "めいかくな", "clear; precise; explicit", "な形容詞 (na-adjective)", "N3"),
+            W("論理的", "ろんりてき", "logical; systematic", "な形容詞 (na-adjective)", "N2"),
+            W("基準", "きじゅん", "standard; criterion; basis", "名詞 (noun)", "N2"),
+            P("に", "basis particle"),
+            W("したがって", "したがって", "in accordance with; following", "副詞 (adverb)", "N3"),
+            W("整理されていた", "せいりされていた", "were organized; were arranged (passive progressive)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s43",
+        "translation": "He accumulated specialized knowledge through meticulous reading, gradually building genuine expertise.",
+        "tokens": [
+            W("綿密な", "めんみつな", "meticulous; minute; careful", "な形容詞 (na-adjective)", "N2"),
+            W("熟読", "じゅくどく", "careful reading; thorough reading", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("通じて", "つうじて", "through; via (stem of 通じる)", "動詞 (verb)", "N3"),
+            T("、"),
+            W("専門知識", "せんもんちしき", "specialized knowledge", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("蓄積し", "ちくせきし", "accumulated; stockpiled (stem)", "動詞 (verb)", "N2"),
+            T("、"),
+            W("本物の", "ほんものの", "genuine; real; authentic", "連体詞 (pre-noun adj.)", "N3"),
+            W("識見", "しきけん", "knowledge; insight; discernment", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("徐々に", "じょじょに", "gradually; little by little", "副詞 (adverb)", "N2"),
+            W("養った", "やしなった", "cultivated; built up; nurtured (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s44",
+        "translation": "His articles received favorable assessments, and his reputation within the industry rose noticeably.",
+        "tokens": [
+            W("記事", "きじ", "articles", "名詞 (noun)", "N4"),
+            P("は", "topic marker"),
+            W("好評", "こうひょう", "favorable reputation; popularity; good reviews", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("得て", "えて", "gained; obtained (て-form)", "動詞 (verb)", "N4"),
+            T("、"),
+            W("業界", "ぎょうかい", "industry", "名詞 (noun)", "N3"),
+            W("内での", "ないでの", "within (pre-noun form)", "助詞 (particle)", "N3"),
+            W("評価", "ひょうか", "evaluation; assessment; reputation", "名詞 (noun)", "N2"),
+            P("が", "subject marker"),
+            W("格段に", "かくだんに", "noticeably; remarkably; by far", "副詞 (adverb)", "N2"),
+            W("上がった", "あがった", "rose; went up (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s45",
+        "translation": "He took pride in the fact that his translations had been acknowledged by people in specialized fields.",
+        "tokens": [
+            W("専門分野", "せんもんぶんや", "specialized fields", "名詞 (noun)", "N2"),
+            P("の", "possessive particle"),
+            W("人々", "ひとびと", "people; many people", "名詞 (noun)", "N4"),
+            P("に", "by particle (passive agent)"),
+            W("自分の翻訳", "じぶんのほんやく", "his own translations", "名詞 (noun)", "N4"),
+            P("が", "subject marker"),
+            W("認められた", "みとめられた", "were acknowledged; were recognized (passive past)", "動詞 (verb)", "N2"),
+            T("こと"),
+            P("を", "object particle"),
+            W("誇りに思った", "ほこりにおもった",
+              "felt proud of; took pride in (past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s46",
+        "translation": "Based on the standard of his own completed articles, he reviewed and critiqued the work of others.",
+        "tokens": [
+            W("自分が", "じぶんが", "his own (subject)", "名詞 (noun)", "N4"),
+            W("書き上げた", "かきあげた", "completed writing; finished writing (past)", "動詞 (verb)", "N3"),
+            W("記事", "きじ", "articles", "名詞 (noun)", "N4"),
+            P("の", "possessive particle"),
+            W("水準", "すいじゅん", "level; standard; grade", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("基準に", "きじゅんに", "as a criterion; using as a standard", "名詞 (noun)", "N2"),
+            T("、"),
+            W("他者の", "たしゃの", "others'; other people's", "連体詞 (pre-noun adj.)", "N2"),
+            W("作業", "さぎょう", "work; task; operation", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("批評した", "ひひょうした", "critiqued; reviewed; commented on (past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s47",
+        "translation": "He aimed not just for technical correctness but for translations with genuine meaning and significance.",
+        "tokens": [
+            W("技術的な", "ぎじゅつてきな", "technical", "な形容詞 (na-adjective)", "N3"),
+            W("正確さ", "せいかくさ", "accuracy; correctness; precision", "名詞 (noun)", "N3"),
+            T("だけでなく、"),
+            W("真の", "しんの", "true; genuine; real", "連体詞 (pre-noun adj.)", "N2"),
+            W("意義", "いぎ", "meaning; significance; importance", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("持つ", "もつ", "to have; to hold", "動詞 (verb)", "N4"),
+            W("翻訳", "ほんやく", "translation", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("目指した", "めざした", "aimed at; targeted (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s48",
+        "translation": "What he discovered was that the accumulation of experience brings with it an even richer awareness of language.",
+        "tokens": [
+            W("経験", "けいけん", "experience", "名詞 (noun)", "N4"),
+            P("の", "possessive particle"),
+            W("蓄積", "ちくせき", "accumulation; buildup", "名詞 (noun)", "N2"),
+            P("が", "subject marker"),
+            T("、"),
+            W("言語", "げんご", "language", "名詞 (noun)", "N3"),
+            P("への", "toward particle"),
+            W("意識", "いしき", "awareness; consciousness; sense", "名詞 (noun)", "N2"),
+            P("を", "object particle"),
+            W("さらに", "さらに", "even more; further; in addition", "副詞 (adverb)", "N3"),
+            W("豊かにする", "ゆたかにする", "to enrich; to make richer", "動詞 (verb)", "N3"),
+            T("という"),
+            W("発見", "はっけん", "discovery; finding", "名詞 (noun)", "N3"),
+            T("だった。"),
+        ],
+    },
+
+    {
+        "id": "n2_s49",
+        "translation": "Through mutual discussion and debate among colleagues, his logical thinking was further sharpened.",
+        "tokens": [
+            W("同僚", "どうりょう", "colleague; co-worker", "名詞 (noun)", "N3"),
+            P("と", "with particle"),
+            P("の", "possessive particle"),
+            W("互いの", "たがいの", "mutual; each other's", "連体詞 (pre-noun adj.)", "N2"),
+            W("議論", "ぎろん", "argument; debate; discussion", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("通じて", "つうじて", "through; via", "動詞 (verb)", "N3"),
+            T("、"),
+            W("論理的思考", "ろんりてきしこう", "logical thinking; logical reasoning", "名詞 (noun)", "N2"),
+            P("が", "subject marker"),
+            W("さらに", "さらに", "even more; further", "副詞 (adverb)", "N3"),
+            W("鋭く", "するどく", "sharply; keenly (adverbial)", "い形容詞 (i-adjective)", "N2"),
+            W("磨かれた", "みがかれた", "was polished; was sharpened (passive past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s50",
+        "translation": "He reflected on all these experiences and recognized that his training was still very much ongoing.",
+        "tokens": [
+            W("これらの経験", "これらのけいけん", "all these experiences", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("振り返り", "ふりかえり", "looked back on; reflected on (stem)", "動詞 (verb)", "N2"),
+            T("、"),
+            W("自分の", "じぶんの", "one's own", "名詞 (noun)", "N4"),
+            W("修行", "しゅぎょう", "training; discipline; practice", "名詞 (noun)", "N2"),
+            P("は", "topic marker"),
+            W("いまだ", "いまだ", "still; yet; as yet", "副詞 (adverb)", "N2"),
+            W("途中", "とちゅう", "in the middle; on the way; partway", "名詞 (noun)", "N3"),
+            T("で"),
+            W("あることを", "あることを", "that it is (nominalized)", "動詞 (verb)", "N5"),
+            W("認識した", "にんしきした", "recognized; became aware of (past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    # ── 第七章: 社会との繋がり (Chapter 7: Connection to Society) ─────────────
+
+    {
+        "id": "n2_s51",
+        "translation": "Translation, he came to understand, is an act of mutual communication that connects different cultures.",
+        "section": "第七章: 社会との繋がり (Chapter 7: Connection to Society)",
+        "tokens": [
+            W("翻訳", "ほんやく", "translation", "名詞 (noun)", "N4"),
+            P("は", "topic marker"),
+            T("、"),
+            W("異なる", "ことなる", "different", "動詞 (verb)", "N3"),
+            W("文化", "ぶんか", "culture", "名詞 (noun)", "N4"),
+            P("を", "object particle"),
+            W("繋ぐ", "つなぐ", "to connect; to link", "動詞 (verb)", "N3"),
+            W("相互", "そうご", "mutual; reciprocal", "な形容詞 (na-adjective)", "N2"),
+            W("コミュニケーション", "こみゅにけーしょん", "communication", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("行為", "こうい", "act; action", "名詞 (noun)", "N3"),
+            T("だと"),
+            W("理解した", "りかいした", "understood; came to understand (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s52",
+        "translation": "He was deeply moved whenever he saw the barrier of language dissolve and genuine understanding emerge.",
+        "tokens": [
+            W("言語", "げんご", "language", "名詞 (noun)", "N3"),
+            P("の", "possessive particle"),
+            W("壁", "かべ", "barrier; wall", "名詞 (noun)", "N4"),
+            P("が", "subject marker"),
+            W("溶け", "とけ", "dissolving; melting (stem)", "動詞 (verb)", "N3"),
+            T("、"),
+            W("真の", "しんの", "true; genuine; real", "連体詞 (pre-noun adj.)", "N2"),
+            W("理解", "りかい", "understanding", "名詞 (noun)", "N4"),
+            P("が", "subject marker"),
+            W("生まれる", "うまれる", "to be born; to arise; to emerge", "動詞 (verb)", "N4"),
+            W("場面", "ばめん", "scene; situation; moment", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("目にする", "めにする", "to witness; to see", "動詞 (verb)", "N3"),
+            W("たびに", "たびに", "every time; whenever", "助詞 (particle)", "N2"),
+            T("、"),
+            W("深く", "ふかく", "deeply; profoundly (adverbial)", "い形容詞 (i-adjective)", "N4"),
+            W("感動した", "かんどうした", "was moved; was touched (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s53",
+        "translation": "The sincerity and integrity he brought to translation was his most important tool.",
+        "tokens": [
+            W("翻訳", "ほんやく", "translation", "名詞 (noun)", "N4"),
+            P("に", "direction particle"),
+            W("向けた", "むけた", "directed toward; aimed at (past attributive)", "動詞 (verb)", "N3"),
+            W("誠実さ", "せいじつさ", "sincerity; integrity; honesty", "名詞 (noun)", "N2"),
+            P("と", "and particle"),
+            W("誠意", "せいい", "good faith; sincerity", "名詞 (noun)", "N2"),
+            P("こそ", "emphatic particle — 'it is precisely ~ that'"),
+            T("が、彼の最も"),
+            W("重要な", "じゅうような", "important; significant", "な形容詞 (na-adjective)", "N4"),
+            W("道具", "どうぐ", "tool; instrument", "名詞 (noun)", "N4"),
+            T("だった。"),
+        ],
+    },
+
+    {
+        "id": "n2_s54",
+        "translation": "He was grateful to have been blessed with colleagues, clients, and mentors who valued quality.",
+        "tokens": [
+            W("質", "しつ", "quality; nature", "名詞 (noun)", "N3"),
+            P("を", "object particle"),
+            W("重んじる", "おもんじる", "to value; to respect; to regard highly", "動詞 (verb)", "N2"),
+            W("同僚", "どうりょう", "colleagues", "名詞 (noun)", "N3"),
+            T("や"),
+            W("クライアント", "くらいあんと", "clients", "名詞 (noun)", "N2"),
+            T("、"),
+            W("恩師", "おんし", "respected mentor", "名詞 (noun)", "N2"),
+            P("に", "indirect object particle"),
+            W("恵まれた", "めぐまれた", "was blessed with; was gifted with (passive past)", "動詞 (verb)", "N2"),
+            T("こと"),
+            P("を", "object particle"),
+            W("感謝した", "かんしゃした", "was grateful; appreciated (past)", "動詞 (verb)", "N4"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s55",
+        "translation": "With growing recognition came growing responsibility — a pressure he welcomed rather than feared.",
+        "tokens": [
+            W("評価", "ひょうか", "recognition; evaluation", "名詞 (noun)", "N2"),
+            P("が", "subject marker"),
+            W("高まる", "たかまる", "to rise; to grow; to increase", "動詞 (verb)", "N3"),
+            G("に伴って", "にともなって", "Noun / V plain + に伴って",
+              "along with; as ~ grows (two things changing simultaneously)",
+              "に伴って here marks two parallel changes: as evaluation rises, so does responsibility.",
+              "地位が高まるに伴って、責任も増した。",
+              "As the position grew, the responsibility also increased.", level="N2"),
+            T("、"),
+            W("責任", "せきにん", "responsibility", "名詞 (noun)", "N3"),
+            P("も", "also particle"),
+            W("増した", "ました", "increased; grew (past)", "動詞 (verb)", "N3"),
+            T("—— そのプレッシャーを、彼は"),
+            W("恐れる", "おそれる", "to fear; to be afraid of", "動詞 (verb)", "N3"),
+            T("のではなく"),
+            W("歓迎した", "かんげいした", "welcomed; received with pleasure (past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s56",
+        "translation": "His goal had expanded: not only to translate well, but to contribute to reforming how the industry itself operated.",
+        "tokens": [
+            W("目標", "もくひょう", "goal; objective; target", "名詞 (noun)", "N3"),
+            P("は", "topic marker"),
+            W("拡大した", "かくだいした", "expanded; grew (past)", "動詞 (verb)", "N2"),
+            T("。"),
+            W("翻訳がうまくなる", "ほんやくがうまくなる", "to improve at translation", "動詞 (verb)", "N3"),
+            G("ばかりでなく", "ばかりでなく", "Noun / plain form + ばかりでなく",
+              "not only ~ but also (broader scope)",
+              "ばかりでなく here extends the goal beyond personal skill to systemic contribution.",
+              "個人の成長ばかりでなく、組織への貢献も目指した。",
+              "Not only personal growth, but also contributing to the organization.", level="N3"),
+            T("、"),
+            W("業界", "ぎょうかい", "industry", "名詞 (noun)", "N3"),
+            T("そのものの"),
+            W("改革", "かいかく", "reform; reformation; improvement", "名詞 (noun)", "N2"),
+            P("に", "direction particle"),
+            W("貢献する", "こうけんする", "to contribute; to make a contribution", "動詞 (verb)", "N2"),
+            T("こともだった。"),
+        ],
+    },
+
+    {
+        "id": "n2_s57",
+        "translation": "What had once been a lone individual's dream was gradually becoming a shared movement.",
+        "tokens": [
+            W("かつて", "かつて", "once; formerly; at one time", "副詞 (adverb)", "N3"),
+            W("一個人", "いっこじん", "a single individual; one person", "名詞 (noun)", "N2"),
+            P("の", "possessive particle"),
+            W("夢", "ゆめ", "dream", "名詞 (noun)", "N5"),
+            T("だったものが、"),
+            W("徐々に", "じょじょに", "gradually; little by little", "副詞 (adverb)", "N2"),
+            W("共有された", "きょうゆうされた", "was shared; was held in common (passive past)", "動詞 (verb)", "N3"),
+            W("運動", "うんどう", "movement; activity; campaign", "名詞 (noun)", "N4"),
+            P("へ", "direction particle"),
+            P("と", "change particle"),
+            W("変わりつつあった", "かわりつつあった",
+              "was in the process of changing (progressive past)", "動詞 (verb)", "N2"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s58",
+        "translation": "As long as language exists, the work of a translator will never disappear — this he believed absolutely.",
+        "tokens": [
+            W("言語", "げんご", "language", "名詞 (noun)", "N3"),
+            P("が", "subject marker"),
+            W("存在する", "そんざいする", "to exist", "動詞 (verb)", "N2"),
+            W("限り", "かぎり", "as long as; to the extent that", "名詞 (noun)", "N3"),
+            T("、"),
+            W("翻訳家の仕事", "ほんやくかのしごと", "a translator's work", "名詞 (noun)", "N4"),
+            P("は", "topic marker"),
+            W("消えることはない", "きえることはない", "will never disappear; there is no way it will vanish", "動詞 (verb)", "N3"),
+            T("——"),
+            T("そう"),
+            W("確信していた", "かくしんしていた", "was firmly convinced; was certain (progressive past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s59",
+        "translation": "His story was not yet finished. Each completed chapter was simply a new starting point.",
+        "tokens": [
+            W("彼の物語", "かれのものがたり", "his story", "名詞 (noun)", "N3"),
+            P("は", "topic marker"),
+            T("、"),
+            W("まだ", "まだ", "still; not yet", "副詞 (adverb)", "N5"),
+            W("終わっていない", "おわっていない", "is not yet finished (progressive negative)", "動詞 (verb)", "N4"),
+            T("。"),
+            W("完成した", "かんせいした", "completed (past attributive)", "動詞 (verb)", "N4"),
+            W("章", "しょう", "chapter; section", "名詞 (noun)", "N3"),
+            P("は", "topic marker"),
+            T("、"),
+            W("それぞれ", "それぞれ", "each; respectively", "副詞 (adverb)", "N3"),
+            W("新たな", "あらたな", "new; fresh (literary pre-noun form)", "連体詞 (pre-noun adj.)", "N2"),
+            W("出発点", "しゅっぱつてん", "starting point; point of departure", "名詞 (noun)", "N3"),
+            T("に"),
+            W("すぎなかった", "すぎなかった", "was nothing more than; was merely (past)", "動詞 (verb)", "N3"),
+            T("。"),
+        ],
+    },
+
+    {
+        "id": "n2_s60",
+        "translation": "Language — the compass that had guided him — would shine all the more brilliantly as he accumulated experience and matured.",
+        "tokens": [
+            W("彼を", "かれを", "him (object)", "名詞 (noun)", "N5"),
+            W("導いてきた", "みちびいてきた",
+              "had guided; had led (progressive toward present, past)", "動詞 (verb)", "N2"),
+            W("羅針盤", "らしんばん", "compass (metaphorical)", "名詞 (noun)", "N2"),
+            T("——"),
+            W("言葉", "ことば", "language; words", "名詞 (noun)", "N4"),
+            P("は", "topic marker"),
+            T("、"),
+            W("積み重ねる", "つみかさねる", "to accumulate; to pile up (experience)", "動詞 (verb)", "N2"),
+            G("につれて", "につれて", "Noun / V dict form + につれて",
+              "as ~ increases; in proportion to; the more ~ the more",
+              "につれて describes a parallel change: as A progresses, B also naturally changes. "
+              "Similar to にしたがって but につれて is more literary and often appears in descriptions of gradual transformation.",
+              "年齢を重ねるにつれて、考え方が変わった。",
+              "As I got older, my way of thinking changed.", level="N3"),
+            T("、"),
+            W("熟成する", "じゅくせいする", "to mature; to ripen; to develop fully", "動詞 (verb)", "N2"),
+            G("につれて", "につれて", "V dict form + につれて",
+              "as ~ (the more); in proportion to",
+              "Second occurrence of につれて in the same sentence, linking maturation to greater brilliance.",
+              "実力がつくにつれて、仕事が面白くなった。",
+              "As my skills grew, the work became more interesting.", level="N3"),
+            T("、"),
+            W("いっそう", "いっそう", "even more; all the more; increasingly", "副詞 (adverb)", "N2"),
+            W("輝く", "かがやく", "to shine; to glitter; to radiate", "動詞 (verb)", "N3"),
+            T("はずだ。"),
+        ],
+    },
+]
+
+# N2 grammar index — all N2 patterns used in the passage
+N2_GRAMMAR_PATTERNS = [
+    # ── Patterns from 第一章 ─────────────────────────────────────────────────
+    {"id": "g2_sueni",          "pattern": "Noun + の末に",                         "meaning": "after (a long process); finally",                    "level": "N2"},
+    {"id": "g2_niatatte",       "pattern": "Noun / V dict form + にあたって",       "meaning": "on the occasion of; when doing (important milestone)", "level": "N2"},
+    {"id": "g2_dakeatte",       "pattern": "Noun / plain form + だけあって",        "meaning": "as expected of; just as one would expect from",      "level": "N2"},
+    {"id": "g2_nagara_adj",     "pattern": "Adj stem / Noun + ながら(も)",          "meaning": "while being; although; despite being (contrast)",    "level": "N2"},
+    {"id": "g2_karaniwa",       "pattern": "V plain + からには",                    "meaning": "now that; since; given that (obligation follows)",    "level": "N2"},
+    {"id": "g2_nitomonate",     "pattern": "Noun / V plain + に伴って",             "meaning": "along with; as ~ increases; in proportion to",       "level": "N2"},
+    {"id": "g2_niwataru",       "pattern": "Noun + にわたる / にわたって",           "meaning": "spanning; covering a range; throughout",             "level": "N2"},
+    {"id": "g2_tabini",         "pattern": "V plain / Noun + のたびに",             "meaning": "every time; whenever",                               "level": "N3"},
+    # ── Patterns from 第二章 ─────────────────────────────────────────────────
+    {"id": "g2_dokoroka",       "pattern": "Noun / V plain + どころか",             "meaning": "far from; not at all; on the contrary",              "level": "N2"},
+    {"id": "g2_bakaridenak",    "pattern": "Noun / plain form + ばかりでなく(〜も)", "meaning": "not only ~ but also; not just ~ but even",           "level": "N3"},
+    {"id": "g2_seide",          "pattern": "Noun / plain form + せいで",            "meaning": "because of; due to (negative cause)",                "level": "N3"},
+    {"id": "g2_okagede",        "pattern": "Noun / plain form + おかげで",          "meaning": "thanks to; owing to (positive cause)",               "level": "N3"},
+    {"id": "g2_ippode",         "pattern": "一方（で）",                            "meaning": "on the other hand; at the same time; while",         "level": "N2"},
+    {"id": "g2_monono",         "pattern": "V plain / Adj plain + ものの",          "meaning": "even though; although (A but expected result absent)", "level": "N2"},
+    {"id": "g2_toittemo",       "pattern": "plain form + といっても",               "meaning": "even so; even though I say ~; that said",            "level": "N2"},
+    {"id": "g2_kotokara",       "pattern": "plain form + ことから",                 "meaning": "from the fact that; because (reasoning from evidence)", "level": "N2"},
+    {"id": "g2_wakeniwa",       "pattern": "V plain + わけにはいかない",            "meaning": "can't possibly ~; not in a position to ~ (obligation)", "level": "N2"},
+    {"id": "g2_zuniwa",         "pattern": "V ず-form + にはいられない",            "meaning": "can't help but; can't stop oneself from",            "level": "N2"},
+    {"id": "g2_shigatai",       "pattern": "V-stem + がたい",                       "meaning": "hard to; difficult to (emotionally or morally)",      "level": "N2"},
+    # ── Patterns from 第三章 ─────────────────────────────────────────────────
+    {"id": "g2_nishitagatte",   "pattern": "Noun / V dict form + にしたがって",     "meaning": "as ~ changes; in accordance with; following",        "level": "N2"},
+    {"id": "g2_womotonil",      "pattern": "Noun + をもとに",                       "meaning": "based on; using as a foundation; drawing on",        "level": "N2"},
+    {"id": "g2_wotsujite",      "pattern": "Noun + を通じて",                       "meaning": "through; throughout; via; by means of",              "level": "N2"},
+    {"id": "g2_tsutsu",         "pattern": "V-stem + つつ(も)",                     "meaning": "while doing; even while / although (literary contrast)", "level": "N2"},
+    {"id": "g2_wofumaete",      "pattern": "Noun + を踏まえて",                     "meaning": "taking into account; based on; in light of",         "level": "N2"},
+    {"id": "g2_kaneru",         "pattern": "V-stem + かねる",                       "meaning": "find it hard to; can't bring oneself to",            "level": "N2"},
+    {"id": "g2_tsutsuaru",      "pattern": "V-stem + つつある",                     "meaning": "is in the process of; is gradually ~ing",            "level": "N2"},
+    {"id": "g2_nichigainai",    "pattern": "plain form + に違いない / にちがいない", "meaning": "must be; I'm certain; there is no doubt",            "level": "N2"},
+    # ── Patterns from 第四章 ─────────────────────────────────────────────────
+    {"id": "g2_nimotoduitel",   "pattern": "Noun + に基づいて",                     "meaning": "based on; in accordance with; grounded in",          "level": "N2"},
+    {"id": "g2_niyotte",        "pattern": "Noun + によって / による",               "meaning": "depending on; due to; by (passive agent)",           "level": "N2"},
+    {"id": "g2_wakegainai",     "pattern": "plain form + わけがない",               "meaning": "there's no way; cannot possibly be",                 "level": "N2"},
+    {"id": "g2_iumadenai",      "pattern": "Noun / plain form + は言うまでもない",  "meaning": "needless to say; it goes without saying",            "level": "N2"},
+    {"id": "g2_nikanshite",     "pattern": "Noun + に関して / に関する",             "meaning": "regarding; concerning; about (formal)",              "level": "N2"},
+    {"id": "g2_zaruwoenai",     "pattern": "V-ない stem + ざるを得ない",             "meaning": "have no choice but to; forced to; can't help but",   "level": "N2"},
+    {"id": "g2_totomoni",       "pattern": "Noun + とともに",                        "meaning": "together with; along with; as ~ (simultaneous)",     "level": "N2"},
+    {"id": "g2_wotooshite",     "pattern": "Noun + を通して",                        "meaning": "through; via; passing through a channel/experience", "level": "N2"},
+    {"id": "g2_nihokanaranai",  "pattern": "Noun / plain form + にほかならない",    "meaning": "nothing other than; is exactly; is precisely",       "level": "N2"},
+    # ── Patterns from 第五章 ─────────────────────────────────────────────────
+    {"id": "g2_nimuketl",       "pattern": "Noun + に向けて",                       "meaning": "toward; aimed at; with the goal of",                 "level": "N2"},
+    {"id": "g2_notodomara",     "pattern": "Noun / V plain + にとどまらず",         "meaning": "not limited to; extending beyond",                   "level": "N2"},
+    {"id": "g2_nagaramo",       "pattern": "V-stem + ながら(も)",                   "meaning": "while doing A, also B; despite A (contrast or addition)", "level": "N2"},
+    {"id": "g2_hamotoyori",     "pattern": "Noun + はもとより",                     "meaning": "not only; let alone; needless to say (emphatic)",    "level": "N2"},
+    {"id": "g2_nukinil",        "pattern": "Noun + ぬきに / ぬきで",                "meaning": "without; leaving out; setting aside",                "level": "N2"},
+    # ── Patterns from 第六章 ─────────────────────────────────────────────────
+    {"id": "g2_nitsurte",       "pattern": "Noun / V dict form + につれて",          "meaning": "as ~ increases; in proportion to; the more ~ the more", "level": "N3"},
+]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Final export — all levels
 # ─────────────────────────────────────────────────────────────────────────────
 
 PASSAGES = {
@@ -3654,5 +5177,19 @@ PASSAGES = {
         ),
         "segments": N3_SEGMENTS,
         "grammar_index": N3_GRAMMAR_PATTERNS,
+    },
+    "n2": {
+        "id": "n2",
+        "title": "社会人への一歩",
+        "title_reading": "しゃかいじんへのいっぽ",
+        "title_meaning": "The First Step into Society",
+        "level": "N2",
+        "description": (
+            "Kenji has graduated and joined a Tokyo translation company as a working professional. "
+            "Follow his growth from rookie to team leader across five chapters. "
+            "Covers all major N2 grammar patterns, N2-level vocabulary, and N2 kanji in authentic professional context."
+        ),
+        "segments": N2_SEGMENTS,
+        "grammar_index": N2_GRAMMAR_PATTERNS,
     },
 }
